@@ -733,8 +733,9 @@
                     "Title": "The \"Title\" field succinctly abstracts the Module contents or logic. The Module Title is always prefixed with the Module's 'class.' Classes are categories of Modules whose names correlate to the broad purpose of the Module. Classes may include 'Powers and Constraints,' 'Resources', and 'Mandate', etc.\n The Title - and its Module Class prefix - ensure that a Module's constituent atomic Sections can be quickly identified as serving a unified purpose within the Article structure as a whole. This value must always be populated.",
                     "Summary": "Summarizes the purpose of the Module in the scheme of the Article as a whole. This value must always be populated.",
                     "Co-Sections": "An array that lists all constituent Sections of a Module. This value must always be populated.",
-                    "Section Contingencies": "Optional value. Lists problems or concerns associated with a particular Section of the pertinent Module. Such problems can include gaps in logic of the Section; conflicts between a Section and other Atlas Documents; questions regarding the operation of the Section to which there are currently no answers; and other risks. Contains a field for 'Forecasted Modifications', which specifies changes to the Section that are likely to be needed to resolve the issues. Through the standardized Atlas data integration protocol, entries in this Component are sourced from the \"Needed Research\" inputs found in certain Document types.",
-                    "Article/Module Contingencies": "Optional value. Lists problems or concerns associated with the Module's constituent Sections that cannot be isolated to a single Section. Contains a field for \"Forecasted Modifications\", which specifies changes to the general Article or Module logic that are likely to be needed to resolve the issues. Through the standardized Atlas data integration protocol, entries in this Component are sourced from the \"Needed Research\" inputs found in certain Document types.",
+                    "Section Contingencies": "Optional value. Lists problems or concerns associated with a particular Section of the pertinent Module. Such problems can include gaps in logic of the Section; conflicts between a Section and other Atlas Documents; questions regarding the operation of the Section to which there are currently no answers; and other risks.\n The \"Section Contingencies\" Component is an object that contains as many key-value pairs as there are Contingencies, with the keys being the document identifier and the values being a nested object. Each nested object specifies further data including 'Needed Research', 'Additional Commentary', and 'Forecasted Modifications'. The 'Forecasted Modifications' field proposes changes to the Section that may be needed to resolve the issues. Through the standardized Atlas data integration protocol, entries in this Component are sourced from the \"Needed Research\" inputs found in certain Document types.",
+                    "Article/Module Contingencies": "Optional value. Lists problems or concerns associated with the Module's constituent Sections that cannot be isolated to a single Section.\n The \"Article/Module Contingencies\" Component is an object that contains as many key-value pairs as there are Contingencies, with the keys being the document identifier and the values being a nested object. Each nested object specifies further data including 'Needed Research', 'Additional Commentary', and 'Forecasted Modifications'. The 'Forecasted Modifications' field proposes changes to the general Article or Module logic that may be needed to resolve the issues. Through the standardized Atlas data integration protocol, entries in this Component are sourced from the \"Needed Research\" inputs found in certain Document types."
+            },
                 "Custom": ""
     
             },
@@ -747,7 +748,6 @@
         "Child_Documents": [],
         "links_to": {},
         "linked_from": []
-    }
 },
 
 "A.1.3.3.2.29": {
@@ -1062,7 +1062,7 @@
                     "Section Contingencies": {
                         "A.1.4.m1-2": {
                             "Needed Research": [
-                                "A formalized protocol for reporting or whistleblowing of actions instigating organizational drift.",
+                                "A formalized protocol for whistleblowing of actions instigating organizational drift.",
                                 "A risk model for organizational drift that cannot be traced to an instigating action on the part of a discrete entity."
                             ],
                             "Additional Commentary": "",
@@ -1072,8 +1072,9 @@
                     "Article/Module Contingencies": {
                         "Needed Research": [
                             "",
-                            "ABC"
+                            ""
                         ],
+                        "Additional Commentary": "",
                         "Forecasted Modifications": ""
                     }
                 },
@@ -1099,45 +1100,52 @@
                     },
                     "Article/Module Contingencies": {
                         "Needed Research": [
-                            "XYZ",
-                            "ABC"
-                        ],
-                        "Forecasted Modifications": ""
-                    },
-    
-                "Custom": ""
-                },
-    
-                "3": {
-                "Title": "Process Definition - FacilitatorDAOs' Regulation of Alignment Conservers",
-                "Summary": "This module contains Sections specifying protocols concerning FacilitatorDAO's regulation and monitoring of Alignment Conservers.",
-                "Co-Sections": [
-                    "A.1.4.m3-1",
-                    "A.1.4.m3-2",
-                    "A.1.4.m3-3"
-    
-                ],
-                "Section Contingencies": {
-                    "A.1.4.m3-2": {
-                        "Needed Research": [
                             "",
-                            "A risk model for ..."
+                            ""
                         ],
                         "Additional Commentary": "",
                         "Forecasted Modifications": ""
                     }
                 },
-                "Article/Module Contingencies": {
-                    "Needed Research": [
-                        "The Article specifies that FacilitatorDAOs are to regulate and monitor ACs. However, it is silent on the question of how FacilitatorDAOs will ensure that Facilitators are carefully monitored for misalignment.",
-                        "Besides the mechanism of Maker Core extracting SubDAO penalties, how will misalignment on the part of FacilitatorDAOs be managed? Bad actors may target NEWDAO ecosystem in various ways; the prospect of SubDAO treasury assets being penalized would only be a deterrent against good-faith SubDAO tokenholders and teams. Without a factfinding process, anon bad actors may exploit a FacilitatorDAO, watch as it is liquidated, and then wait for a new FacilitatorDAO to spin up to begin the cycle all over again."
+    
+                "3": {
+                    "Title": "Process Definition - FacilitatorDAOs' Regulation of Alignment Conservers",
+                    "Summary": "This module contains Sections specifying protocols concerning FacilitatorDAO's regulation and monitoring of Alignment Conservers.",
+                    "Co-Sections": [
+                        "A.1.4.m3-1",
+                        "A.1.4.m3-2",
+                        "A.1.4.m3-3"
+    
                     ],
-                    "Forecasted Modifications": "Add 'Module - Risk Management - Controlling Risk of FacilitatorDAO/Facilitator Misalignment'."
-                    },      
-                    "Custom": "[Conflicts between Immutable Docs]"
+                    "Section Contingencies": {
+                        "A.1.4.m3-3": {
+                            "Needed Research": [
+                                "",
+                                ""
+                            ],
+                            "Additional Commentary": "",
+                            "Forecasted Modifications": ""
+                    }
+                    },
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                        
+                            "The Article specifies that FacilitatorDAOs are to regulate and monitor ACs. However, it is silent on the question of how FacilitatorDAOs will ensure that Facilitators are carefully monitored for misalignment. Inherent conflict of interest, if Facilitators are to be regarded as separate entities from the FacilitatorDAOs.",
+                        
+                            "Besides the mechanism of Maker Core extracting SubDAO penalties, how will misalignment on the part of FacilitatorDAOs be managed? Bad actors may target NEWDAO ecosystem in various ways; the prospect of SubDAO treasury assets being penalized would only be a deterrent against good-faith SubDAO tokenholders and teams. Without a factfinding process, anon bad actors may exploit a FacilitatorDAO, watch as it is liquidated, and then wait for a new FacilitatorDAO to spin up to begin the cycle all over again."
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": [
+                            
+                            "Add 'Module - Risk Management - Controlling Risk of FacilitatorDAO/Facilitator Misalignment'.",
+                            ""
+
+                        ]
+                        
+                    }
+                },      
+            "Custom": ""
         }
-    }
-    }
     },
     
     "A.1.4.0.3": {
@@ -1998,8 +2006,13 @@
         "links_to": {},
         "linked_from": []
     }
-    }
+}
+}
+    
+    
+    
+    
     
     
 
-
+```
