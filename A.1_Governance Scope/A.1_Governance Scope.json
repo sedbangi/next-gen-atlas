@@ -938,25 +938,25 @@
         "linked_from": []
 },
 
-"A.1.3.3.2.29": {
-    "Name": "The FacilitatorDAO Scenario Directory Type",
-    "Version": 1,
-    "Type": "Type Specification",
-    "Components": {
-        "Type Name": "FacilitatorDAO Scenario Directory",
-        "Type Overview": "The FacilitatorDAO Scenario Directory Type is a directory used to list all of the Scenarios that pertain to a FacilitatorDAO Action Tenet. Scenarios are hypothetical fact patterns that are designed to illustrate the practical application of a single FacilitatorDAO Action Tenet, i.e., its parent FacilitatorDAO Action Tenet Document. Scenarios are classified as either Aligned or Misaligned. Aligned Scenarios conform to the logic of the Target Document. Misaligned Scenarios have breached the Target Document logic and are thus in violation of the Atlas.",
-        "Type Components": {
-            "Directory index": "This Component should contain a list of the FacilitatorDAO Scenarios contained within, with keys being the document identifiers and values being their document names."
+    "A.1.3.3.2.29": {
+        "Name": "The FacilitatorDAO Scenario Directory Type",
+        "Version": 1,
+        "Type": "Type Specification",
+        "Components": {
+            "Type Name": "FacilitatorDAO Scenario Directory",
+            "Type Overview": "The FacilitatorDAO Scenario Directory Type is a directory used to list all of the Scenarios that pertain to a FacilitatorDAO Action Tenet. Scenarios are hypothetical fact patterns that are designed to illustrate the practical application of a single FacilitatorDAO Action Tenet, i.e., its parent FacilitatorDAO Action Tenet Document. Scenarios are classified as either Aligned or Misaligned. Aligned Scenarios conform to the logic of the Target Document. Misaligned Scenarios have breached the Target Document logic and are thus in violation of the Atlas.",
+            "Type Components": {
+                "Directory index": "This Component should contain a list of the FacilitatorDAO Scenarios contained within, with keys being the document identifiers and values being their document names."
+            },
+            "Type Category": "Supporting Document",
+            "Document Identifier Rules": "FaciltatorDAO Scenario Directory Documents must always be located at the .0.1 position below their parent FacilitatorDAO Action Tenet Document, e.g., A.1.m1-1.0.4.1.1.",
+            "Type Authority": 0.88,
+            "Additional Logic": ""
         },
-        "Type Category": "Supporting Document",
-        "Document Identifier Rules": "FaciltatorDAO Scenario Directory Documents must always be located at the .0.1 position below their parent FacilitatorDAO Action Tenet Document, e.g., A.1.m1-1.0.4.1.1.",
-        "Type Authority": 0.88,
-        "Additional Logic": ""
-    },
-    "Last_Modified": "2023-10-06",
-    "Child_Documents": [],
-    "links_to": {},
-    "linked_from": []
+        "Last_Modified": "2023-10-06",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
 
 },
 
