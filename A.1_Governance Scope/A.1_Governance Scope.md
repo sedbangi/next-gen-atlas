@@ -1,5 +1,193 @@
 ```json
 {
+    "A.1": {
+        "Name": "The Governance Scope",
+        "Version": 1,
+        "Type": "Scope",
+        "Components": {
+            "Content": "The Governance Scope covers principles and rules related to the Governance Processes and balance of power of NEWDAO and the NEW Ecosystem. The Governance Scope must ensure that the resilient equilibrium of NEWDAO Governance remains protected against all potential direct and indirect threats."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [
+            "A.1.da",
+            "A.1.0",
+            "A.1.1",
+            "A.1.2",
+            "A.1.3",
+            "A.1.4"
+        ],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.da": {
+        "Name": "The Governance Scope Danish Translation",
+        "Version": 1,
+        "Type": "Scope",
+        "Components": {
+            "Original Document Type": "Scope",
+            "Language": "Danish.",
+            "Translated Name": "Styringsscopet",
+            "Indhold": "Styringsscopet d\\u00e6kker over principper og regler relateret til styringsprocesserne og magtbalancen i NEWDAO og NEW \\u00d8kosystemet. Styringsscopet skal sikre at NEWDAO's Styring forbliver i stabil ligev\\u00e6gt, og forbliver beskyttet mod alle potentielle direkte og indirekte trusler."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.0": {
+        "Name": "Supporting Root",
+        "Version": 1,
+        "Type": "Supporting Root",
+        "Components": {},
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [
+            "A.1.0.0",
+            "A.1.0.1",
+            "A.1.0.2",
+            "A.1.0.3",
+            "A.1.0.4",
+            ""
+            
+        ],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.0.0": {
+        "Name": "Governance Scope Navigation Hub",
+        "Version": 1,
+        "Type": "Navigation Hub",
+        "Components": {
+            "Content": "The Governance Scope contains rules and principles related to core NEWDAO governance processes and the actors, in particular Alignment Conservers, involved in core governance processes. Further Navigation: The Scope Improvement Child Document contains the rules and processes for improving the Governance Scope. The Spirit of the Atlas Child Document contains key principles related to the fundamental values and interpretation of the Atlas. The Atlas Documents Hub contains rules and specifications for the structure of the Atlas and the characteristics, properties and types of Atlas Documents."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {
+            "Scope Improvement": "A.1.1",
+            "Spirit of the Atlas": "A.1.2",
+            "Atlas Documents Hub": "A.1.3.0.0"
+        },
+        "linked_from": []
+    },
+    "A.1.0.1": {
+        "Name": "Original Context Data",
+        "Version": 1,
+        "Type": "Original Context Data",
+        "Components": {
+            "Content": "The intent of A.1 is to establish the foundational governance principles and structure to enable NEWDAO to fulfill its vision in a sustainable and resilient manner. It aims to balance adaptation with stability by locking in core values while allowing carefully managed evolution of operational details. The rules aim to prevent governance attacks, drift from principles, and other forms of misalignment or corruption."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.1": {
+        "Name": "Scope Improvement",
+        "Version": 1,
+        "Type": "Article",
+        "Components": {
+            "Content": "This Article discusses the principles and processes for improving the Governance Scope's Atlas Documents. It emphasizes the role of Scope Advisors, Governance FacilitatorDAOs, and the Atlas Operational Platform. The Sections of this Article provide detailed insight into these roles and their responsibilities."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [
+            "A.1.1.1",
+            "A.1.1.2",
+            "A.1.1.3"
+        ],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.1.1": {
+        "Name": "Role of Scope Advisors",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Improvements to the Governance Scope should be advised by expert Scope Advisors. They provide objective and factual input on Atlas Document improvements. They are selected through a governance poll, ensuring they meet specific criteria and avoid conflicts of interest. Their work output must be checked for alignment with the expected results."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.1.2": {
+        "Name": "Role of Governance FacilitatorDAOs",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Governance FacilitatorDAOs manage the Scope Advisors, from soliciting proposals to ensuring the produced work aligns with the Scope Artifact. They also have the authority to propose changes to the Scope Framework in response to ambiguous or challenging situations."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.1.3": {
+        "Name": "Atlas Operational Platform",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The Atlas Operational Platform is crucial for accessible participation in the Governance Scope. Part of the Scope Advisors must support its design and development. It should provide a comprehensive and user-friendly overview of all data and processes relevant to the Governance Scope, ensuring accessibility, transparency, and easy verification of processes and decisions."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.2": {
+        "Name": "Spirit of the Atlas",
+        "Version": 1,
+        "Type": "Article",
+        "Components": {
+            "Content": "The Spirit of the Atlas represents the foundational principles of NEWDAO Governance, enshrined in the Immutable Documents and reflected in Atlas Documents and aligned participants of the NEW Ecosystem."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [
+            "A.1.2.1",
+            "A.1.2.2"
+        ],
+        "links_to": {},
+        "linked_from": []
+    },
+	"A.1.2.1": {
+		"Name": "Universal Alignment and the Spirit of the Atlas",
+		"Version": 1,
+		"Type": "Section",
+		"Components": {
+			"Content": "The Spirit of the Atlas are the foundational principles that steer the NEWDAO Governance process. The Spirit of the Atlas are grounded concepts that enables coordination in the NEW Ecosystem around a resilient governance equilibrium that optimizes for Universal Alignment between the NEW Ecosystem and its surrounding environment. The grounded concepts of the Spirit of the Atlas provide specific boundaries for distinguishing Universal Alignment and misalignment when operating in the NEW Ecosystem context. The Immutable Documents of the Atlas are the bedrock for determining Universal Alignment of the NEW Ecosystem's rules and incentives, and hold precedence over any other conflicting rules or decisions. In situations where the Immutable Documents cannot be directly interpreted, the Spirit of the Atlas should be inferred in a way that maximizes Universal Alignment and mitigates risks of slippery slope misalignment. Achieving this necessitates a comprehensive understanding of Universal Alignment and the logic of how it is grounded in the Spirit of the Atlas within NEWDAO, and this Section must specify the processes to ensure the right research and documentation efforts occur to proactively protect the Spirit of the Atlas in the NEW Ecosystem."
+		},
+		"Last_Modified": "2023-11-09-00:00:00",
+		"Child_Documents": [
+			"A.1.2.1.0"
+		],
+		"links_to": {},
+		"linked_from": []
+	},
+    "A.1.2.1.0":
+    {
+        "Name": "Supporting Root",
+        "Version": 1,
+        "Type": "Supporting Root",
+        "Last_Modified": "2023-11-09-00:00:00",
+        "Child_Documents":
+        [
+            ""
+        ],
+        "links_to":
+        {},
+        "linked_from":
+        []
+    },
+    "A.1.2.2": {
+        "Name": "Interpretation of the Spirit of the Atlas",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "When the Immutable Documents do not contain explicit instructions about a particular topic, the Spirit of the Atlas should be extrapolated based on the best available knowledge and research into Universal Alignment. Resolution of Atlas Document ambiguity or contradictions must be fully congruent with the Spirit of the Atlas and prior precedent, and must be resolved in a way that also clearly sets new precedent to prevent future similar ambiguous situations from occurring. This Section must cover the processes needed to operationalize the capability to research and describe the Spirit of the Atlas, the establishment of Spirit of the Atlas interpretations and precedent, and its application to Adaptive Documents. FacilitatorDAOs must have a process for directly applying Spirit of the Atlas interpretations in cases of less ambiguity and impact. In situations where there are high levels of ambiguity about how to extraprolate the Spirit of the Atlas to the new data, a NEWDAO governance vote is needed to establish the precedent"
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
     "A.1.3": {
         "Name": "Atlas Documents",
         "Version": 1,
@@ -2008,11 +2196,5 @@
     }
 }
 }
-    
-    
-    
-    
-    
-    
-
+   
 ```
