@@ -577,6 +577,7 @@
             "Type Overview": "The FacilitatorDAO Action Tenet Type is used to provide concrete adjudication principles derived from its Target Document. It distills the governance logic of the Target Document into a concise principle to guide FacilitatorDAOs in resolving disputes related to the Target Document. The practical application of the Tenet is demonstrated by its \"Scenario\" Subdocuments.",
             "Type Components": {
                 "Tenet": "The Tenet Component specifies the adjudication logic, principle or doctrine that is directly derived from the Target Document. This Component can include policy statements underpinning the adjudication principle. Such policy statements can highlight the values that are served by, or the benefits gained from, adhering to the Tenet. When facing edge cases, these policy statements can help FacilitatorDAOs to extrapolate from the Tenet's logic to achieve the most suitable outcome.",
+                "See Also": "Optional value. Given the deeply interconnected nature of all concepts and data in the Atlas, a single Tenet can often only be rightly comprehended and applied if considered in a broader context that includes an array of other Atlas documents. The See Also Component has the function of assisting FacilitatorDAOs by highlighting the Atlas documents that are closely related to the Tenet, which can include other Action Tenets, Element Annotations, or Immutable/Adaptive documents.\n The See Also Component is an array that contains as many key-value pairs as there are referenced Atlas documents, with keys being the document identifiers and values being a description of each document's relevance to the Action Tenet.",
                 "Status": "The Status Component reflects whether the FacilitatorDAO Action Tenet (“Action Tenet”) Document instance is \"Provisional\" or \"Approved\".\n An Action Tenet Document instance can be integrated into the Atlas on an experimental basis. The \"Provisional\" status enables ecosystem participants to interact with the Action Tenet Document instance in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness. FacilitatorDAOs are not bound to observe an Action Tenet Document instance whose status is \"Provisional\". They may choose to do so however, in which case they should specify the concrete reasons and utility of the Document instance for their decisionmaking. This input becomes a valuable contribution to ongoing Atlas research.\n Alternatively, an Action Tenet Document instance can be integrated into the Atlas under \"Approved\" status. This status denotes a significantly higher level of confidence in the Document instance. However, a Document instance with \"Approved\" status remains modifiable pursuant to the customary governance or Atlas workstream protocol. In contrast to Document instances with \"Provisional\" status, FacilitatorDAOs are required to factor into their decisionmaking any relevant Action Tenet Document instance with \"Approved\" status.\n The purpose of the Status Component is to operationalize continuous research on Universal Alignment and enable recursive improvement of Atlas infrastructure.\n Atlas Axis, an authorized Ecosystem Actor, is responsible for assigning this Status where it is a required component of Atlas documents.",
                 "Needed Research": "An array that contains descriptions of problems or concerns associated with the Action Tenet and its Target Document. Such problems can include potential gaps or conflicts in the logic of the Action Tenet and/or its Target Document, relative to their related Atlas Documents; questions regarding the operation of the Target Document to which there are currently no answers; and other risks.\n Through the standardized Atlas data integration protocol, entries in this Component are selectively sourced from inputs from Facilitators, Atlas workstream contributors or other ecosystem participants and are gradually processed upward to its Article Function Supporting Document. Further processing can lead to modifications to the organization of the Article and its child Sections; or modifications of the content of the Article and its child Sections, and/or other related Atlas documents.\n The \"Needed Research\" Component is only present in the Core Type document and specific Supporting Document types. These document types have the objective of extrapolating from the abstract logic of their Parent documents to formulate rules and processes that are more concrete and actionable. Therefore, inputs for \"Needed Research\" are more appropriately sourced at this level in the document tree. The \"Needed Research\" Component is not included in the Article or Section Document types, whose language tends to be broad in nature."
             },
@@ -1421,6 +1422,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "Any departure from the core principles enshrined in the Immutable Documents, regardless of its subtlety, marks the initiation of slippery slope misalignment and cannot be tolerated.\n Alignment Conservers play a pivotal role as vigilant guardians against all misalignment threats, including organizational drift. Their responsibility extends beyond identifying blatant Universal Alignment deviations to detecting the more nuanced shifts that may go unnoticed by others. Even seemingly minor departures can accumulate and erode the core values over time.",
+            "See Also": [],
             "Status": "Provisional",
             "Needed Research": [ 
             
@@ -1516,7 +1518,8 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "\"Organizational drift\" can be instigated by distinct entities or agents within the ecosystem. For instance, affirmative actions by formal ecosystem stakeholders, such as Facilitators, AVCs, or Ecosystem Actors may trigger organizational drift. In instances where the instigating action is identifiable and can be traced back to a discrete entity, AVC Members, Aligned Delegates and Budget Allocators are generally expected to promptly and publicly report such actions to the FacilitatorDAOs. FacilitatorDAOs are expected to take swift action appropriate to the category of ecosystem stakeholder, including derecognition of the AC or offboarding the Ecosystem Actor.\n This general expectation becomes a mandate if the proximity of Alignment Conservers to the instigating action renders it reasonable to expect that they should have detected the unfolding organizational drift. The assessment of reasonableness in this context does not hinge on the action/inaction (lack of attention or diligence) of an individual Alignment Conserver. Instead, the inquiry is based on a reasonable-person standard, and applied to the customary professional expectations associated with the Alignment Conserver position. Further information on such expectations can be found in the pertinent AC Article.",
-                    
+
+            "See Also": [],       
             "Status": "Provisional",
             "Needed Research": [ 
                 
@@ -1589,6 +1592,7 @@
         "Components": {
             "Tenet": "'Organizational drift' may occur as a consequence of actions that cannot be traced back to a specific, identifiable entity, rendering standard accountability measures ineffective. In such instances, Alignment Conservers are generally expected to: 1) publicly notify the FacilitatorDAOs and 2) quickly and clearly 'sound the alarm' by posting a public communication to denounce the instigating action as misalignment. The urgency of this expectation is heightened to a mandate when the proximity of Alignment Conservers to the instigating action makes it reasonable to anticipate that they should have been aware of the evolving organizational drift. The assessment of reasonableness in this context does not hinge on the actions/inactions (lack of attention or diligence) of an individual Alignment Conserver. Instead, the inquiry is based on a reasonable-person standard, and applied to the customary professional expectations associated with the Alignment Conserver position. Further information on such expectations can be found in the pertinent AC Article.",
         
+            "See Also": [],
             "Status": "Provisional",
             "Needed Research": [
             
@@ -1639,6 +1643,7 @@
         "Components": {
             "Tenet": "Generally, when an AC acts to impact governance in any way, they must do so according to rules/principles/processes that are based on the explicit language of the Immutable Documents. Because of the nature of language and the fact that the Atlas can never anticipate all possible scenarios, it will sometimes be necessary for the basis of ACs' actions to be sourced from extrapolations or inferences of logic, but these must be grounded. 'Grounded inferences' means that derivations, deductions or extensions of governance logic maintain a strong, clear connection and alignment with the delineated processes and frameworks explicitly defined in the Immutable Documents.\n Because ungrounded inferences of logic lack such a robust and clearly documented foundation, they introduce severe misalignment risk given the potential for intentional misrepresentation or distortion. The interpreter may deviate from the genuine intent of the Immutable Documents, not driven by an earnest effort to understand but rather influenced by personal motives or ulterior agendas.",
             
+            "See Also": [],
             "Status": "Approved",
             "Needed Research": [
                 "Clarification is needed in this respect: the Target Document does not grant ACs permission to disregard processes and frameworks specified in the Adaptive Documents."
@@ -1666,6 +1671,8 @@
             "Type": "FacilitatorDAO Action Tenet",
             "Components": {
                 "Tenet": "In any adjudication involving potential misalignment of Alignment Conservers (ACs), FacilitatorDAOs are unequivocally directed to apply the strictest and highest standards of Universal Alignment.\n 'Highest standard' means that the 'preponderance of the evidence' evidentiary standard should be applied in the adjudication process of FacilitatorDAOs. As ACs are held to the most rigorous standards of Universal Alignment, FacilitatorDAOs should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the FacilitatorDAO is required to derecognize the AC.\n Given the exceptionally high stakes in cases of potential AC misalignment, FacilitatorDAOs must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as guardians of Universal Alignment.",
+                
+                "See Also": [],
                 "Status": "Approved",
                 "Needed Research": [
                     ""
@@ -1708,6 +1715,8 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "Whether an entity is \"operationally active\" in a role is determined purely on a formal basis. As long as an entity occupies or assumes a role that is formally defined in the Atlas, that entity is \"operationally active\" in that role. This is notwithstanding the amount of time the entity devotes to a role; the nature of the work performed by the entity in a role; the fact that the entity is on a leave of absence from one role; the fact that the entity's role is uncompensated; or the fact that the entity alternates between two roles to avoid simultaneous performance of both roles.\n This Tenet is based on the rationale of protecting against misalignment risks that arise when a stakeholder occupies two or more ecosystem roles, each of which has different mandates and inner incentives. Such misalignment risks include conflict of interest and bias, collusion and conspiracy.\n See also, A.1.4.m1-5.0.4.2.",
+            
+            "See Also": [],
             "Status": "Approved",
             "Needed Research": [
                     ""
@@ -1904,6 +1913,7 @@
         "Components": {
             "Tenet": "The Target Document is violated if an Alignment Conserver formally occupies two or more NEWDAO ecosystem roles. The phrase \"other ecosystem roles\" is read in its broadest sense to mean the totality of roles that are formally defined in the Atlas with a function in the NEWDAO ecosystem. Such \"ecosystem roles\" include, but are not limited to, the four types of Alignment Conserver, Scope Advisor, Governance Process Support Ecosystem Actor, Active or Incubating Ecosystem Actor, AllocatorDAO Advisor, Arranger, and the contributors supporting these aforementioned actors. The rationale of this rule is to protect against misalignment risks that arise when a stakeholder occupies two or more ecosystem roles, each of which has different mandates and inner incentives. Such misalignment risks include conflict of interest and bias, collusion and conspiracy.\n See also, A.1.4.m1-5.0.4.1.",
             
+            "See Also": [],
             "Status": "Approved",
             "Needed Research": [
     
@@ -1919,6 +1929,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "An \"ecosystem role\" need not be compensated or full-time to be regulated by the Target Document.",
+            "See Also": [],
             "Status": "Approved",
             "Needed Research": [
     
@@ -1945,6 +1956,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "When an Alignment Conserver breaches a role-specific requirement, this is misalignment on par with a breach of a general AC requirement, and vice versa. FacilitatorDAOs must not default to assigning greater or lesser culpability on the sole basis of whether the breached rule is role-specific or general. Apart from this caveat, misaligned acts can have varying degrees of severity or harm, and should be individually evaluated by the FacilitatorDAO in any action.",
+            "See Also": [],
             "Status": "Approved",
             "Needed Research": [
     
@@ -1975,6 +1987,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "Since ACs are held to the most stringent standards of Universal Alignment, FacilitatorDAOs are mandated to employ a less rigorous 'preponderance of the evidence' standard to determine whether the anonymity of an Aligned Delegate or Facilitator has been breached. This standard of proof requires that FacilitatorDAOs acknowledge evidence of misalignment if such evidence is considered at least 51% more likely than not to be valid or to substantiate the presented claim. In the event that the overall weight of the evidence demonstrates a 51% or greater chance that the AC's anonymity has been breached, the FacilitatorDAO is obligated to derecognize the AC. This less stringent standard of proof enables FacilitatorDAOs to prioritize erring on the side of abundant precaution when it comes to ACs' anonymity and opsec requirements. The primary objective of FacilitatorDAOs is not to ensure that the adjudication proceeding is balanced or fair to the AC, but rather to proactively mitigate security risks for the DAO by swiftly deplatforming ACs whose anonymity is likely compromised.",
+            "See Also": [],
             "Status": "Approved",
             "Needed Research": [
     
@@ -1992,6 +2005,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "The operational security of certain Alignment Conserver roles is key to governance integrity overall. ADs and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.",
+            "See Also": [],
             "Status": "Approved",
             "Needed Research":[
     
@@ -2024,6 +2038,8 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "Since ACs are held to the most stringent standards of Universal Alignment, FacilitatorDAOs are mandated to employ a less rigorous 'preponderance of the evidence' standard to determine whether an AC has breached a requirement of A.1.4. This standard of proof requires that FacilitatorDAOs accept the profferred evidence of misalignment, if such evidence is considered at least 51% more likely than not to be valid or to substantiate the presented claim. In the event that the overall weight of the evidence demonstrates a 51% or greater chance that the AC committed a misaligned act, the FacilitatorDAO is obligated to immediately derecognize the AC.\n In handling these matters, FacilitatorDAOs must prioritize an abundance of caution. The primary objective is not to ensure a balanced or fair adjudication proceeding for the AC, but rather to proactively mitigate security risks for the DAO by swiftly deplatforming ACs whose misalignment is more likely than not.",
+            
+            "See Also": [],
             "Status": "Approved",
             "Needed Research":[]
         },
@@ -2040,6 +2056,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "The term 'immediately' in the Target Document means 'as soon as is reasonably possible.' [Reasonableness standard...] To adhere to this commitment, the FacilitatorDAO must derecognize the AC within a general timeframe of 2 business days upon conclusion of an investigation that finds against the AC. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the FacilitatorDAO's control. If such a good-cause showing cannot be made, the FacilitatorDAO will face penalties.",
+            "See Also": [],
             "Status": "Approved",
             "Needed Research":[]
                 },
@@ -2070,6 +2087,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "Any AC misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. Any leniency shown towards AC infractions could set a precedent that might be misconstrued or exploited by other actors within the ecosystem. FacilitatorDAOs are required to take a proactive approach to prevent the normalization of misaligned acts (i.e., 'slippery slope'), no matter how minor. FacilitatorDAOs must be vigilant against the creation of an environment where misaligned actors justify themselves based on prior instances of lenience.",
+            "See Also": [],
             "Status":"Approved",
             "Needed Research":[]
             },
@@ -2085,6 +2103,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "The term 'mild breach' characterizes a form of misalignment or rule breach that, when viewed in isolation, exhibits relatively insignificant scope or impact. Furthermore, a 'very mild' act of misalignment often indicates a lack of ill intent (i.e., innocent mistake) or premeditation on the part of the rule violator. A 'mild breach' will likely be the violator's first offense.\n However, it is crucial to recognize that even seemingly trivial breaches can have far-reaching implications. The incorporation of the term 'slippery slope' underscores the potential domino effect inherent in mild breaches. This signifies that, despite their minor nature, such breaches can act as precursors to a cascade of more significant and potentially severe issues within the system. Though the Target Document authorizes FacilitatorDAOs to exercise lenience in the case of 'mild breaches,' this is an extremely limited exception to the general rule that ACs must be held to the highest standards of Universal Alignment.",
+            "See Also": [],
             "Status":"Approved",
             "Needed Research":[]
             },
@@ -2101,6 +2120,7 @@
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
             "Tenet": "The Target Document fails to specify accountability measures for an AC who commits a misaligned act that is not mild; the Target Document is also silent on the subject of the proper remedial approach if an AC commits a subsequent misaligned act after an initial mild breach. Despite the lack of explicit guidance, however, FacilitatorDAOs have been given sufficient information in A.1.4 to reach a reliable adjudication principle. Taken in its totality, A.1.4 requires FacilitatorDAOs to take a highly aggressive stance when it comes to responding to AC misalignment risk. The absence of a substantial punitive measure for the first mild breach provides the AC with an opportunity for corrective action and learning. After the initial warning, any subsequent breach must immediately trigger derecognition, regardless of the degree of severity. Similarly, an initial breach that is not mild in scope or impact must trigger derecognition. This escalation is a necessary consequence of the Atlas's mandate that ACs are held to the highest standards of Universal Alignment.",
+            "See Also": [],
             "Status":"Approved",
             "Needed Research":[
     
