@@ -2213,6 +2213,1491 @@
         "Child_Documents": [],
         "links_to": {},
         "linked_from": []
+    },
+
+    "A.1.5": {
+        "Name": "Aligned Voter Committees (AVCs)",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVC are standardized Voter Committees made up of Alignment Conservers that hold MKR and participate in the Maker Governance process as actors that are deeply aligned with MKR holders. They are subject to specific requirements, and receive various benefits, resources, and support from the Support Scope. They have significant formal powers, but no direct physical power, making them well-suited to be in control and making key decisions during normal conditions.\n AVCs focus on making sure that the day-to-day Letter of the Rules of the Atlas are aligned with the Spirit of the Atlas. The AVCs impact on Maker Governance is to make marginal improvements to the Adaptive Documents of the Atlas that strengthen them. As AVCs make detailed Universal Alignment interpretations, they must all follow a particular Strategic Perspective that informs their subjective definition of Universal Alignment."
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.5.0": {
+        "Name": "Supporting Root",
+        "Version": 1,
+        "Type": "Supporting Root",
+        "Components": {},
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [
+            
+        ],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.5.0.0": {
+        "Name": "Navigation Hub"
+        
+    },
+    "A.1.5.0.1": {
+        "Name": "Original Context Data"
+    },
+    "A.1.5.0.2": {
+        "Name": "Article Function",
+        "Version": 1,
+        "Type": "Article Function",
+        "Components": {
+            "Function": "[placeholder] AVC are standardized Voter Committees made up of Alignment Conservers that hold MKR and participate in the Maker Governance process as actors that are deeply aligned with MKR holders. They are subject to specific requirements, and receive various benefits, resources, and support from the Support Scope. They have significant formal powers, but no direct physical power, making them well-suited to be in control and making key decisions during normal conditions.\n AVCs focus on making sure that the day-to-day Letter of the Rules of the Atlas are aligned with the Spirit of the Atlas. The AVCs impact on Maker Governance is to make marginal improvements to the Adaptive Documents of the Atlas that strengthen them. As AVCs make detailed Universal Alignment interpretations, they must all follow a particular Strategic Perspective that informs their subjective definition of Universal Alignment.",
+    
+            "Modules": {
+                "1": {
+                    "Title": "Mandate - AVC Mission",
+                    "Summary": "AVCs' broad mission in the ecosystem.",
+                    "Co-Sections": [
+                        "A.1.5.m1-1"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "2": {
+                    "Title": "Powers & Constraints - Optimizing Scopes for Spiritual Alignment",
+                    "Summary": "Defines limits on AVCs' power to optimize the Scope Artifacts for increased spiritual alignment.",
+                    "Co-Sections": [
+                        "A.1.5.m2-1",
+                        "A.1.5.m2-2",
+                        "A.1.5.m2-3",
+                        "A.1.5.m2-4",
+                        "A.1.5.m2-5",
+                        "A.1.5.m2-6",
+                        "A.1.5.m2-7"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "3": {
+                    "Title": "Process Definition - General Provisions",
+                    "Summary": "General Provisions defining how AVCs are displayed on the EGF.",
+                    "Co-Sections": [
+                        "A.1.5.m3-1",
+                        "A.1.5.m3-2",
+                        "A.1.5.m3-3",
+                        "A.1.5.m3-4"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "4": {
+                    "Title": "Process Definition - Aligned Gov Strategy",
+                    "Summary": "Policies and processes related to AVCs' Aligned Governance Strategy, its utilization by ADs and its role in preventing voter confusion or misdirection",
+                    "Co-Sections": [
+                        "A.1.5.m4-1",
+                        "A.1.5.m4-2",
+                        "A.1.5.m4-3",
+                        "A.1.5.m4-4"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "5": {
+                    "Title": "Process Definition - Aligned Scope Proposals & Subcommittees",
+                    "Summary": "Processes related to AVCs' development of Aligned Scope Proposals through the vehicle of weekly Subcommittees",
+                    "Co-Sections": [
+                        "A.1.5.m5-1",
+                        "A.1.5.m5-2",
+                        "A.1.5.m5-3",
+                        "A.1.5.m5-4",
+                        "A.1.5.m5-5"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "6": {
+                    "Title": "Process Definition - Voting & Declared MKR",
+                    "Summary": "Processes related to AVC internal governance, including Members' voting power and the role of \"Declared MKR\".",
+                    "Co-Sections": [
+                        "A.1.5.m6-1",
+                        "A.1.5.m6-2",
+                        "A.1.5.m6-3",
+                        "A.1.5.m6-4",
+                        "A.1.5.m6-5",
+                        "A.1.5.m6-6"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "7": {
+                    "Title": "Process Definition - AVC Membership",
+                    "Summary": "Processes relating to AVC Member applications and the removal of current Members.",
+                    "Co-Sections": [
+                        "A.1.5.m7-1",
+                        "A.1.5.m7-2"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "8": {
+                    "Title": "Process Definition - AVC Splits",
+                    "Summary": "Process by which AVCs can trigger split of infrastructure and AD Governance Strategy Links.",
+                    "Co-Sections": [
+                        "A.1.5.m8-1",
+                        "A.1.5.m8-2",
+                        "A.1.5.m8-3",
+                        "A.1.5.m8-4"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                },
+                "9": {
+                    "Title": "Resources - AVC Participation Rewards",
+                    "Summary": "Specifies resources granted to AVCs.",
+                    "Co-Sections": [
+                        "A.1.5.m9-1",
+                        "A.1.5.m9-2",
+                        "A.1.5.m9-3"
+                    ],
+                    "Section Contingencies": {},
+                    "Article/Module Contingencies": {
+                        "Needed Research": [
+                            "",
+                            ""
+                        ],
+                        "Additional Commentary": "",
+                        "Forecasted Modifications": ""
+                    }
+                }
+            },
+            "Custom": ""    
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []   
+    
+    },
+    
+    "A.1.5.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+                
+    "A.1.5.0.3.1": {
+        "Name": "Element Annotation - Abstract"
+    },
+                
+    "A.1.5.0.4": {
+        "Name": "FacilitatorDAO Action Tenets Directory"
+                
+    },
+                
+    "A.1.5.0.4.1": {
+        "Name": "FacilitatorDAO Action Tenet - Abstract"
+                
+    },
+                
+    "A.1.5.0.4.1.1": {
+        "Name": "FacilitatorDAO Scenario Directory"
+    },
+                
+    "A.1.5.0.4.1.1.1": {
+        "Name": "FacilitatorDAO Scenario - 1"
+    },
+                
+    "A.1.5.0.5": {
+        "Name": "FacilitatorDAO Action Precedent Directory"
+    },
+                
+    "A.1.5.0.5.1": {
+        "Name": "FacilitatorDAO Action Precedent - Abstract"
+    },
+    
+    "A.1.5.m1-1": {
+        "Name": "Mandate - AVC Mission",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The Aligned Voter Committee (AVC) holds a central position in the broader aligned structure, directly connecting with NewGov holders, NewStable holders, and key stakeholders of the ecosystem. " 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.3.1": {
+        "Name": "broader aligned structure - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "broader aligned structure",
+            "Annotation": "The Element refers to the comprehensive system of governance structures and incentive mechanisms that align the actions of individuals and collective entities within the ecosystem to adhere to Universal Alignment principles. The \"broader aligned structure\" not only covers the internal frameworks that regulate participant behavior but also extends to the management of NEWDAO's interactions outside its immediate ecosystem.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.3.2": {
+        "Name": "central position - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "central position",
+            "Annotation": "This element underscores AVCs' activity as a liaison among different ecosystem participants, working to integrate specific stakeholder interests into NEWDAO's decision-making processes and communication flows. As such, AVCs play a vital role in the evolutionary learning of the ecosystem. They help to ensure that NEWDAO is continually responsive to, and refreshed and informed by, the evolving priorities and insights of the community.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.3.3": {
+        "Name": "directly connecting - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "directly connecting",
+            "Annotation": "This element points to AVCs playing an active political and integrative role within the NEWDAO ecosystem. It indicates that AVCs facilitate direct communication and interaction between the listed entities and themselves, without any \"middlemen\".  This helps AVCs to effectively understand and integrate these various stakeholder perspectives into their platforms or Strategic Perspectives.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.3.4": {
+        "Name": "key stakeholders - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "key stakeholders",
+            "Annotation": "Key stakeholders are individuals, groups, or entities that have (or can potentially have) a significant interest or stake in the ecosystem, and/or play (or can potentially play) a significant function in the ecosystem. Such stakeholders can include, but are not limited to, Facilitators, Scope Advisors, Ecosystem Actors, product users or adjacent community members, investors and regulatory bodies. ",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m1-1.0.4.1": {
+        "Name": "Action Tenet References",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "For FacilitatorDAO Action Tenets related to AVCs' work of optimizing the Scope Artifacts, see the remaining Sections in Module 2, as well as Module 4 and 5.",
+            "See Also": [],
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    } , 
+            
+    "A.1.5.m2-1": {
+        "Name": "Powers & Constraints - AVCs monitor Spiritual Alignment",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVCs monitor the Spiritual Alignment of the Aligned Structure." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-1.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-1.0.3.1": {
+        "Name": "Spiritual Alignment of the Aligned Structure - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Spiritual Alignment of the Aligned Structure",
+            "Annotation": "The \"Aligned Structure\" is the Maker ecosystem, which employs alignment engineering through the Atlas. Two related concepts need to be mentioned here. (See also the definition of \"Aligned Structure\" [here.](https://mips.makerdao.com/mips/details/MIP101#aligned-structure)\n First: \"Universal Alignment\" is a state in which an ecosystem actor is holistically grounded in their greater context. They act with full awareness of their specialized role and their actions' cumulative impacts - direct and indirect - on the ecosystem. (See also the definition of \"Universal Alignment” [here](https://mips.makerdao.com/mips/details/MIP101#universal-alignment).)\n Second:\"Incentivized Alignment\" is the targeted outcome of alignment engineering, which employs incentives that structure the evolution of the collective intelligence in such a way that actors' self-interested pursuit of goals simultaneously maximizes the well-being of the whole. (See also the definition of \"Incentivized Alignment\" [here](https://mips.makerdao.com/mips/details/MIP101#incentivized-alignment).)\n If effective, Incentivized Alignment may lead to an ecosystem actor behaving in ways that are outwardly indistinguishable from the behavior of an actor who is inherently Universally Aligned.\n AVCs are tasked with modifying the Scope Alignment Artifacts so that Incentivized Alignment is brought increasingly in line with Universal Alignment.\n The degree of congruence, or fit, between Incentivized Alignment and Universal Alignment is termed \"Spiritual Alignment\" in the Target Document.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-2": {
+        "Name": "Powers & Constraints - AVCs' creation of Aligned Governance Strategy and Aligned Scope Proposals",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The main operational task of Aligned Voter Committees (AVCs) is to formulate updated, ratified Aligned Governance Strategy and Aligned Scope Proposals for each of the 5 Scopes on a quarterly basis." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-2.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-2.0.4.1": {
+        "Name": "Main operational task of AVCs",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "The primary function of AVCs is to produce Aligned Governance Strategy and Aligned Scope Proposals. These documents represent the core, tangible outputs expected from AVCs. This Article outlines other operational responsibilities of AVCs, such as processing membership applications, holding Subcommittees, and implementing an internal voting process to ratify other AVC decisions. However, the Target Document emphasizes that these tasks are supportive in nature and specifically in service to the primary function of AVCs, i.e., the production of an Aligned Governance Strategy and Aligned Scope Proposals on a quarterly basis.",
+            "See Also": {},
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+                
+    "A.1.5.m2-2.0.4.2": {
+        "Name": "Justification required if AVC chooses not to update Scope Proposals",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If an AVC determines modifications to the Scopes are unnecessary for a specific quarter, it is required to formally issue a new set of Aligned Scope Proposals. This set must include a detailed justification for maintaining the status quo. Such justification should be supported by research and analysis, incorporating insights and feedback collected from ecosystem stakeholders during Subcommittee Meetings within the quarter.",
+            "See Also": {},
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    }, 
+            
+    "A.1.5.m2-2.0.4.3": {
+        "Name": "Requirements for validation of position documents",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "In order for their position documents to be properly validated, AVCs must fulfill two requirements. First, they must submit their Aligned Governance Strategy and Aligned Scope Proposals as Active Data in the appropriate location of the Atlas. Second, the AVC must approve the position documents in an official AVC decision. See this Article's Module 6.",
+            "See Also": {},
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3": {
+        "Name": "Powers & Constraints - Aligned Scope Proposals address alignment gaps",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVC Aligned Scope Proposals are aimed at addressing alignment gaps, including incentive slack issues.\n Through a recursive, incremental process of improving the Scope Alignment Artifacts, AVCs ensure that Incentivized Alignment mirrors Universal Alignment as closely as possible." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3.1": {
+        "Name": "Incentive Slack - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Incentive Slack",
+            "Annotation": "See the Atlas Preamble definition: https://mips.makerdao.com/mips/details/MIP101#incentive-slack.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3.2": {
+        "Name": "Universal Alignment - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Universal Alignment",
+            "Annotation": "See the Atlas Preamble definition: https://mips.makerdao.com/mips/details/MIP101#universal-alignment.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3.3": {
+        "Name": "Incentivized Alignment - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Incentivized Alignment",
+            "Annotation": "See the Atlas Preamble definition: https://mips.makerdao.com/mips/details/MIP101#incentivized-alignment.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3.4": {
+        "Name": "alignment gaps - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "alignment gaps",
+            "Annotation": "The element \"alignment gaps\" refers to the differences or discrepancies between the actual behaviors of ecosystem actors (driven by Inner or Incentivized Alignment) and the desired behaviors that are holistically congruent with Universal Alignment.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3.5": {
+        "Name": "recursive, incremental process - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "recursive, incremental process",
+            "Annotation": "This element describes the methodology employed by AVCs to continually refine Scope Alignment Artifacts. The quarterly AVC governance process instantiates repeated cycles of observation, evaluation, action and feedback to progressively enhance the congruence between Incentivized and Universal Alignment.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.3.6": {
+        "Name": "Incentivized Alignment mirrors Universal Alignment as closely as possible - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Incentivized Alignment mirrors Universal Alignment as closely as possible",
+            "Annotation": "This phrase encapsulates the chief goal of AVCs' Aligned Scope Proposals, as well as the broader alignment engineering efforts of the Atlas in general. That is, the objective is to ensure that the behaviors incentivized through the ecosystem's culture, structures and policies are indistinguishable from those an actor would exhibit if they were inherently motivated by Universal Alignment principles. Such an objective is a prerequisite to achieving a maximally decentralized, resilient governance equilibrium that is not strongly reliant on individual moral persuasion or the inherent altruism of actors.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.4.1": {
+        "Name": "AVCs must prioritize resolving alignment gaps",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "AVCs' Aligned Scope Proposals must prioritize the identification and proposal of solutions for alignment gaps within the Maker ecosystem, which arise from discrepancies between the current state of Incentivized Alignment and the ideal state of Universal Alignment. AVC Scope Proposals should aim to rectify such discrepancies by suggesting high-level adjustments to Scope logic concerning policies, protocols, or cultural artifacts impacting the intrinsic/extrinsic motivations of ecosystem agents and the balance of power among them.",
+            "See Also": {
+                "A.1.5.m2-4": "This Section and its Supporting Documents deal with the same logic, but approach it from a different perspective to emphasize the concept of long-term Alignment Artifact Strength."
+            },
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-3.0.4.2": {
+        "Name": "AVCs' methodology must be one of incremental evolution",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "In the quarterly AVC process modifying the Scope Artifacts, AVCs are generally required to follow a strategy of continuous, incremental evolution rather than sudden, large-scale transformations. AVC Scope Proposals that suggest broad, sweeping changes are to be initially presumed invalid by the FacilitatorDAOs and cannot go forward to a vote. However, this initial presumption can be challenged by the AVC and potentially overturned. The FacilitatorDAOs must conduct a careful review of the Proposal to determine if such a proposal qualifies under the specific exception to the general rule outlined in A.1.3.3.1.2. ",
+            "See Also": {
+                "A.1.3.3.1.2": "This Core document specifies that Primary Documents must generally be modified as slowly as possible. Rapid, large-scale changes may be acceptable if their function is to ensure the Primary Documents stay fully adapted to changing external conditions."
+            },
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.1.5.m2-4": {
+        "Name": "Powers & Constraints - AVCs' top priority is long-term Alignment Artifact Strength",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "When crafting their Scope Proposals, AVCs' top priority must be to safeguard and enhance long-term Alignment Artifact Strength. Neglecting or deprioritizing this duty is severe misalignment." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.3.1": {
+        "Name": "Alignment Artifact Strength - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Alignment Artifact Strength",
+            "Annotation": "Long term Alignment Artifact Strength derives from the design of incentive structures that effectively influence the self-interested single actor to prefer certain actions over others. In the aggregate, the preferred actions of all actors synergize to maximize the good of the ecosystem as a whole.\n The influence exercised by incentive structures should come about from a holistic understanding of what sustainably motivates human behavior, which is always a context-specific inquiry. In any given context, effective motivations may be economic incentives, social belonging or recognition, or intrinsic values. The incentive structures themselves are an integral part of the context. That is, the design of incentive structures itself can fundamentally shape ecosystem agents' perception of what is possible, what is fruitful, or what is \"right\" to pursue or value.",
+            "Status": "Provisional",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.1": {
+        "Name": "AVCs' top priority is to safeguard and/or enhance long-term Alignment Artifact Strength",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "Safeguarding and/or enhancing long-term Alignment Artifact Strength is the most important duty of AVCs. It takes precedence over other AVC operational tasks or obligations including, but not limited to: soliciting guests for Subcommittees; Subcommittee discussions or investigations that do not contend with how to safeguard and/or enhance Alignment Artifact Strength; publishing Forum comments; refining the Aligned Governance Strategy; adding members or attracting Aligned Delegates; Discord activity; and working with stakeholders with aims other than safeguarding and/or enhancing long-term Alignment Artifact Strength.\n In light of the Target Document's logic, misalignment can fall on a continuum. An AVC has breached the Target Document if it completely ignores long-term Alignment Artifact Strength. An AVC who has significantly deprioritized long-term Alignment Artifact Strength - even if it has given \"some\" attention to it - has also likely breached the Target Document. The Target Document makes clear that \"de-prioritizing\" long-term Alignment Artifact Strength, i.e., investing resources and energy toward other commitments at the expense of the top priority, is severe misalignment.\n That said, AVCs are not required to wholly devote 100% of their time and energy to safeguarding and/or enhancing long-term Alignment Artifact Strength. It is possible for AVCs to explore other types of solutions in their Scope Proposals while Alignment Artifact Strength remains their top priority.\n In the event that a breach of the Target Document has occurred, the FacilitatorDAO should derecognize the AVC.",
+            "See Also": {
+                
+                "A.1.5.m2-4.0.4.2": "The vast majority of the AVC's proposed modifications in an Aligned Scope Proposal should explicitly and directly advance the goal of safeguarding and/or enhancing Alignment Artifact Strength. Roughly expressed as a percentage, \"primarily focused\" means approximately 70% or more of total output."
+            },
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.1.1": {
+        "Name": "FacilitatorDAO Scenario Directory",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario Directory",
+        "Components": {
+            "Directory index": {}
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.1.1.1": {
+        "Name": "AVC properly prioritizing Alignment Strength in Scope Proposal",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An industrious AVC develops a 50-page Scope Proposal within a quarter. While the Scope Proposal contains some mundane housekeeping additions, a major portion (i.e., 75% or more of the total output) makes the intentions behind Scope Artifact logic easier to understand and follow, setting clear expectations and rewards for aligned actions and delineating misaligned actions comprehensively.",
+            "Finding": "Aligned",
+            "Additional Guidance": "Given that humdrum housekeeping additions are often easier to create than more substantial proposed improvements that truly strengthen Alignment Artifact Strength, a large number of additions in a Scope Proposal could indicate a de-prioritization of long-term Alignment Artifact strengthening.",
+            
+            "Needed Research":[],
+            
+            "Variations": {}
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.1.1.2": {
+        "Name": "AVC's Scope Proposal fails to focus on Alignment Strength",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC submits its quarterly Governance Scope Proposal containing a single amendment. This amendment relates to the process by which Governance FacilitatorDAOs remove inactive AVC Members from the Governance Scope. There is no justification included of why or how the proposed change safeguards and/or enhances long-term Alignment Artifact Strength.\n The AVC's remaining four Scope Proposals contain no further amendments. But they do have some half-hearted analysis explaining why the current Alignment Artifact strength of the four Alignment Artifacts are sufficient in the eyes of the AVC.",
+            "Finding": "Misaligned",
+            "Additional Guidance": "The AVC failed to provide any justification for why its sole proposed amendment safeguards and/or enhances long-term Alignment Artifact Strength. This already is a breach of the Target Document and related Atlas requirements (A.1.5.m2-6). This renders the AVC's Governance Scope proposal invalid. Given the invalidity of the Governance Scope Proposal, the AVC has failed to meet its quarterly work output requirements (A.1.5.m3-4) and should immediately lose its active AVC status. Thus, the remaining four Scope Proposals become irrelevant.",
+            
+            "Needed Research":[],
+            
+            "Variations": {}
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.2": {
+        "Name": "Determining whether an AVCs' top priority was safeguarding and enhancing long-term Alignment Artifact Strength",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "Whether or not safeguarding and enhancing long-term Alignment Artifact Strength was indeed the top priority of an AVC can be ascertained by looking at the AVC's Aligned Scope Proposals for the quarter. If these are primarily focused on this prioritized task, then the AVC is in alignment with the Target Document's requirement.\n \"Primarily focused\" means that the vast majority of the AVC's proposed modifications explicitly and directly advance the goal of safeguarding and/or enhancing Alignment Artifact Strength. (Roughly expressed as a percentage, \"primarily focused\" means approximately 70% or more of total output. However, this is a general rule of thumb. FacilitatorDAOs should rely on common sense and not be overly pedantic.)\n FacilitatorDAOs must ensure that every proposed modification in an AVC Aligned Scope Proposal is justified in terms of how it safeguards and/or enhances long-term Alignment Artifact Strength. This justification consists of substantive analysis, research or other evidence accompanying each proposed item in an Aligned Scope Proposal.\n In this context, checking for \"substantive\" evidence does not mean that the FacilitatorDAOs must magically become experts in long-term Alignment Artifact Strength and fact-check every item in the AVCs' Scope Proposal. FacilitatorDAOs are expected however to engage in a thorough review of the AVCs' Scope Proposals and ensure that the provided justifications are not mere lip service but contain good-faith thinking and analysis.\n One way for FacilitatorDAOs to check for the presence of good-faith thinking and analysis is to see whether the AVC's analyses in its Scope Proposals show clear evidence that the AVC understands the core concepts (e.g., inner incentive, incentivized alignment, Alignment Artifact Strength, letter of the rule vs spirit of the rule, etc.) and can apply them in an original or thoughtful way.",
+            "See Also": {
+    
+                "A.1.5.m2-6": "This Section and Supporting Documents elaborate how AVCs must justify their Aligned Scope Proposals against the requirements of Universal Alignment, which justification must include how each proposed item safeguards and/or enhances long-term Alignment Artifact Strength."
+            },
+            "Status": "Provisional",
+            "Needed Research": [
+                
+                "Explore standardizing AVC Scope Proposals so that there are certain things that must be addressed by all AVCs in a substantive manner. An example would be requiring all Scope Proposals to include a section that analyzes for deficiencies in Alignment Artifact Strength in status quo and how AVC's proposed changes improve upon it.",
+                "Given limited resources, the practicality of requiring FacilitatorDAOs to review all AVC Scope Proposals is in question."
+            ]
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.2.1": {
+        "Name": "FacilitatorDAO Scenario Directory",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario Directory",
+        "Components": {
+            "Directory index": {
+            }
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.2.1.1": {
+        "Name": "Failure to produce required quarterly output due to internal conflict",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC submits Scope Proposals containing mostly short-term housekeeping suggestions. When the FacilitatorDAO initiates an inquiry per the Target Document, the AVC submits documentation proving that most of its Subcommittees and public communications this quarter consisted of heated discussions about long-term Alignment Artifact Strength. The AVC argues that its \"top priority\" was working on long-term Alignment Artifact Strength, but its Members were simply unable to form a consensus on the proper amendments to include. Thus, the AVC argues, its work on long-term Alignment Artifact Strength will take several quarters to develop to satisfaction.",
+            "Finding": "Misaligned",
+            "Additional Guidance": "The quarterly AVC governance process is iterative. While the Scope Proposals submitted by AVCs are expected to be of a certain quality and well-justified, there is no expectation that AVCs deliver Scope Proposals that are finished \"once and for all.\"\n Per A.1.5.m2-2, AVCs are still mandated to create \"updated\" Aligned Scope Proposals for each of the 5 Scopes on a \"quarterly basis”.\n AVCs are allocated a specific time period of one quarter to produce their Scope Proposals. This timeframe is a mandated guideline for pacing and accountability, ensuring that submissions are timely and reflective of current priorities and circumstances within the ecosystem.\n Despite any internal conflicts or challenges that may arise within the AVC team, there is no provision within the governance ruleset that exempts them from fulfilling their obligation to deliver the required output. Per A.1.5.m8, AVC Members are empowered to trigger a split to redress situations of internal conflict.\n The FacilitatorDAO should deactivate the AVC for failure to produce quarterly work output that meets the specified requirements.",
+            
+            "Needed Research":[],
+            
+            "Variations": {}
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.2.1.2": {
+        "Name": "AVC's mis-use of Subcommittee Meetings",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC chats about cryptocurrency trends and meme coins during weekly Subcommittees and spends roughly 10-15 minutes discussing the week's Scope. Hardly any time is spent during the weekly Subcommittees discussing Alignment Artifact Strength.\n Behind the scenes, however, the AVC Members privately collaborate among themselves and with their ADs to research the topic of Artifact Alignment Strength. At the end of the quarter, the AVC produces Scope Proposals containing a number of well-substantiated amendments to optimize game theoretic aspects of Alignment Conserver roles.\n When a FacilitatorDAO initiates an inquiry, the AVC defends itself by saying that output should matter more than style. As long as its Scope Proposals address long-term Alignment Artifact Strength, the AVC should have the freedom to run its Subcommittees however it sees fit. The AVC also argues that the weekly meetings are an opportunity to build community and attract new MKR holders as members. Therefore, to spend time discussing arcane matters of Alignment Artifact strength would be alienating and harmful to NEWDAO in the long run.",
+            "Finding": "Misaligned",
+            "Additional Guidance": "The AVC's response to the FacilitatorDAOs may seem reasonable enough, but this is only if that response is considered in isolation from the Atlas and the totality of the ecosystem in which the AVCs play a particular role.\n A.1.5-m5-3 requires AVCs to organize Subcommittees whose stated purpose is to discuss the operation of the Adaptive Documents. By focusing the discussions of all AVCs on the operation of a particular Scope during every week of the quarter, a transparent platform is set up to advance collective intelligence. The synergistic effects of the marketplace of ideas would not be achievable if every AVC had the freedom to discuss meme coins instead of the Scope of the week.\n Further, it's a critical requirement that the AVC's work on Artifact Alignment Strength can be followed publicly at the Subcommittees. The ends do not justify the means: generating the required output but doing so in private discussions defeats the role of AVCs as a transparent platform for advancing ecosystem intelligence.\n Finally: nothing in the Atlas prevents the AVC from setting up additional weekly meetings to discuss other topics.",
+            
+            "Needed Research":[],
+            
+            "Variations": {}
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.3": {
+    "Name": "AVCs' proposed modifications need not achieve both safeguarding and enhancing of long-term Alignment Artifact Strength",
+    "Version": 1,
+    "Type": "FacilitatorDAO Action Tenet",
+    "Components": {
+        "Tenet": "To safeguard and enhance long-term Alignment Artifact Strength means two distinct things. To be aligned with the Target Document, AVCs need not achieve both things at once with respect to a proposed Scope Alignment modification. Fulfilling just one of the two goals (safeguarding or enhancing) is sufficient.\n \"Safeguarding\" means AVCs' proposed Scope modifications have the goal of protecting the current state of long-term Alignment Artifact Strength from harm or deterioration. In this context, \"appropriate\" means that the AVC acts properly within the powers and constraints granted them by the Atlas.\n \"Enhancing\" means that AVCs' proposed Scope modifications aim to increase or advance the current state of long-term Alignment Artifact Strength.\n In other words, AVCs must not be complacent. If they do not aim to enhance long-term Alignment Artifact Strength in their Scope Proposals, then, at a minimum, they must aim to safeguard the same.",
+        "See Also": {},
+        "Status": "Provisional",
+        "Needed Research": []
+    },
+    "Last_Modified": "20XX-XX-XX-00:00:00",
+    "Child_Documents": [],
+    "links_to": {},
+    "linked_from": []
+    },
+    
+    "A.1.5.m2-4.0.4.4": {
+        "Name": "long-term Alignment Artifact Strength - AVCs must not seek short-term fixes to Alignment Artifact Strength",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "The use of the modifier \"long-term\" is actually repetitive, because sustainable Alignment Artifact Strength can only be designed with a long-term perspective.\n Thus, AVCs' Scope Proposals must be rooted in analysis and problem-solving that aims at the generalizable, underlying issues causing alignment gaps, or discrepancies between ecosystem actors' self-interested incentives and the requirements of Universal Alignment.\n AVCs' Scope Proposals must not seek to effect short-term, expedient fixes of mere symptoms, even if these fixes are alleged to correct alignment gaps.",
+            "See Also": {},
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-5": {
+        "Name": "Powers & Constraints - AVCs prohibited from micromanagement",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Generally, AVCs must not be prescriptive in their approach to Alignment Artifact strengthening. This requirement is designed to prevent AVCs from engaging in micromanagement under the pretext of strengthening the Alignment Artifact." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-5.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-5.0.3.1": {
+        "Name": "'prescriptive' and 'micromanagement' - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "'prescriptive' and 'micromanagement'",
+            "Annotation": "The two elements delineate the boundaries of AVCs' interventions in governance. It places a deliberate limitation on AVCs, steering them towards proposing broad, strategic directions and foundational principles, rather than dictating specific directives on how those objectives should be met. This distinction is critical in positioning AVCs as entities that catalyze ecosystem alignment through cultural influence rather than through direct economic management or rigid governance dictates.Cultural structures flourish the more that creative autonomy and robust competition are given free reign. AVCs are intended to impact the ecosystem through the quality of their ideas - which, if sufficiently resonant and triumphant in the marketplace of ideas, are then taken up and actualized by the domain experts (Ecosystem Actors).",
+            "Status": "Provisional",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-5.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-5.0.4.1": {
+        "Name": "Framework for evaluating AVC micromanagement",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "When evaluating whether an AVC Aligned Scope Proposal involves inappropriate micromanagement, FacilitatorDAOs should consider the following factors:\n -1. **Controlling low-level vs Shaping high-level**: Assess whether the proposal seeks to influence minute operational details or broad strategic directions.\n -2. **Flexibility vs. Rigidity**: Proposals that outline higher-level frameworks or objectives and allow for adaptive approaches to meeting these are less likely to be micromanaging. In contrast, rigid, one-size-fits-all solutions often indicate a micromanagement risk.\n -3. **Empowerment vs. Directive**: Does the proposal empower Ecosystem Actors or other relevant parties in the ecosystem to make decisions according to their domain expertise, or does it dictate specific actions and outcomes? Proposals that do the former present less risk of micromangement.\n -4. **Level of Detail in Metrics and KPIs**: Highly detailed and numerous metrics suggest an attempt to control minutiae, whereas high-level KPIs aligned with overall strategy may indicate more proper strategic oversight.\n -5. **Frequency and Scale of Review/Intervention**: Proposals that suggest frequent and detailed reviews or interventions in processes could indicate a tendency towards micromanagement.\n -6. **Stakeholder Feedback Loop**: Proposals that incorporate a mechanism for regular feedback and real-time adjustment from affected stakeholders present less risk of micromanagement.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-6": {
+        "Name": "Powers & Constraints - Aligned Scope Proposals must be justified against Universal Alignment principles",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVCs' Aligned Scope Proposals must include clear, detailed explanations of how the proposed changes support Universal Alignment. Specifically, these explanations must justify and analyze all proposed changes against the objectives of Transparency, Neutrality, Fairness and Long-Term Benefit to MakerDAO." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4.1": {
+        "Name": "Framework for AVCs' Scope Proposal justifications",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "AVC Scope Proposals must have justifications that address all the Target Document's listed objectives of Transparency, Neutrality, Fairness and Long-term Benefit.\n With respect to all of these objectives, AVCs should address two distinct things: 1) its process and 2) its results (i.e., the Scope Proposals).\n That is: first, AVCs must demonstrate how its own internal governance process (which led to the proposed changes) meets the listed objectives/values.\n Second, the AVC must address how the finished products of that internal process - the proposed modifications - serve the listed objectives/values.",
+            "See Also": {
+                "A.1.5.m2-7": "AVCs are also required to conduct a Future Alignment Risk Analysis of their Scope Proposals."
+            },
+            "Status": "Approved",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    }, 
+    
+    "A.1.5.m2-6.0.4.2": {
+        "Name": "What it means for Scope Proposals to be 'justified', generally speaking",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "A \"justified\" Scope Proposal has been carefully developed within the framework of the Atlas, with a thorough and holistic application of its core values, policies, requirements, and constraints to the given context. An explanation effectively \"justifies\" proposed Scope changes when the AVC can demonstrate a substantive understanding of the Atlas (whether this understanding involves a specific rule, several rules or the entire Atlas), and how this understanding led to a clear rationale that aligns each proposed change with Universal Alignment requirements.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    }, 
+            
+    "A.1.5.m2-6.0.4.3": {
+        "Name": "Justifying Scope Proposals against the objective of Transparency",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "Transparency is not just about the availability of information but about ensuring that information is understandable, actionable, and leveraged for meaningful participation and oversight in NEWDAO governance.\n As to the \"process\" element: AVCs' development of Scope Proposals should, in itself, fulfill the objective of Transparency. They should be developed over the quarter via public Subcommittee discussions. The Proposals should include discussion about where or how stakeholders will have access to relevant information about the suggested modifications; their origination or motivation; any potential conflicts of interest; proposals' outcomes if adopted and implications; etc. This transparency allows for informed discussion and feedback.\n As to the \"results\" element: An AVC has justified its Scope Proposals against the objective of Transparency when it explains how its proposed changes (the processes, procedures or mechanisms) preserve or enhance: 1) open access to governance information; 2) intelligibility of the governance information provided; and 3) stakeholders' ability to apply that information for effective oversight of, and participation in, governance.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    }, 
+    
+    "A.1.5.m2-6.0.4.3.1": {
+        "Name": "FacilitatorDAO Scenario Directory",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario Directory",
+        "Components": {
+            "Directory index": {
+            }
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4.3.1.1": {
+        "Name": "Availability of data that underlies AVC Scope Proposals",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC's Strategic Perspective is in favor of growth in emerging economies through a multi-chain strategy.\n The AVC follows Atlas rules to solicit a Scope Proposal that will specifically address growth opportunities in Turkey through integrations with L2 protocols.\n A credentialed Scope Advisor is properly onboarded and delivers to the AVC a set of proposed changes to the relevant Scope Alignment Artifacts. The changes are narrowly tailored to support clearly defined growth metrics in Turkey through a multi-chain strategy. All assumptions, inputs and research sources are publicly available and linked to the work product shared with the AVC. All information is posted on the Forum and viewable by everyone in the ecosystem.\n The AVC discusses the Scope Advisor work product in the weekly Subcommittee meetings designated for the specific Scopes impacted. ADs are requested to provide written discussion identifying areas where the proposed strategy complements or conflicts with current strategy and other proposals under consideration by other AVCs.\n The AVC ratifies a set of quarterly Scope Proposals containing the Scope Advisor work product recommendations supplemented with its opinion (informed by AD input) on how the strategy implementation would function within the wider context of overall L2 and other current growth strategies.",
+            "Finding": "Aligned",
+            "Additional Guidance": "",
+            
+            "Needed Research":[],
+            
+            "Variations": {
+                "1": {
+                    "Description": "An AVC's Strategic Perspective is in favor of growth in emerging economies through a multi-chain strategy.\n The AVC follows Atlas rules to solicit a Scope Proposal that will specifically address growth opportunities in Turkey through integrations with L2 protocols.\n A credentialed Scope Advisor is properly onboarded and delivers to one of the AVC Members a set of proposed changes to the relevant Mutable Scope Alignment Artifacts. The changes are narrowly tailored to support clearly defined growth metrics in Turkey through a multi-chain strategy. All assumptions, inputs and research sources are kept confidential and are thus not posted on the Forum for review.\n In the weekly Subcommittee meetings, the AVC Member with access to the unredacted data provides a summary of the data. This leads to a rather superficial discussion of the Scope Advisor work product.\n The AVC ratifies a set of quarterly Scope Proposals containing the substance of conclusions reached in the Scope Advisor work product, as provided by the AVC Member who had access to the full set of proposed changes and supporting confidential research.",
+                    "Finding": "Misaligned",
+                    "Additional Guidance": "",
+                    "Needed Research": []
+                }
+            }
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4.4": {
+        "Name": "Justifying Scope Proposals against the objective of Neutrality",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "As to the \"process\" element: AVCs' development of Scope Proposals should, in itself, fulfill the objective of Neutrality. Of course, an AVC should bring to bear its unique Strategic Perspective when developing its governance documents. But this unique Strategic Perspective should not be driven by narrow self-interest or the covert agendas of individual AVC Members or subsets within the AVC.\n One way to evaluate whether an AVC's internal process fulfilled the objective of Neutrality is for FacilitatorDAOs to consider records of the AVC's Subcommittee discussions. For instance, do these demonstrate that a range of perspectives was explored, or was there a single-minded focus on a particular solution that disproportionately impacts a specific Ecosystem Actor or other participant?\n Does the record of AVC deliberation show an effort to proactively mitigate any biases related to conflicts of interest in the decision-making process? Evidence of proactive mitigation that meets the “process” requirement of Neutrality can include AVC Members' proactively disclosing conflicts of interest (versus only disclosing after being confronted with the conflict of interest by a third party); recusal from voting; or refraining from contributing to discussions implicating a potential conflict of interest.\n As to the “results” element:  an AVC has justified its Scope Proposals against the objective of Neutrality when it explains how its proposed changes (the processes, procedures or mechanisms) preserve or enhance: 1) the impartiality of governance processes or their resilience to corruption or capture by self-serving special interests; 2) stakeholders' context-appropriate access to contribute to governance processes on a level playing field; and 3) transparent reporting of the implementation and outcomes of governance processes.",
+            "See Also": {
+                "tbd":"Risk Management Module - AVC member conflict of interest"
+            },
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+        }, 
+    
+    "A.1.5.m2-6.0.4.4.1": {
+        "Name": "FacilitatorDAO Scenario Directory",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario Directory",
+        "Components": {
+            "Directory index": {
+            }
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4.4.1.1": {
+        "Name": "AVC Member's conflict of interest",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC's Strategic Perspective is in favor of growth in emerging economies through a multi-chain strategy. An AVC Member is a limited partner in a fund that invests in L2 dAPPs serving Turkey and the Middle East. The AVC follows Atlas rules to solicit a Scope Proposal that will specifically address growth opportunities in Turkey through integrations with L2 protocols. Prior to formally soliciting the Scope Proposal, the AVC Member discloses a potential conflict of interest.\n A credentialed Scope Advisor is properly onboarded and delivers to the AVC a set of proposed changes to the relevant Scope Alignment Artifacts. The changes are narrowly tailored to support clearly defined growth metrics in Turkey through a multi-chain strategy. The recommended strategy includes use of technology being developed by one of the AVC Member's portfolio investments. The AVC Member proactively discloses this fact.\n The AVC discusses the Scope Advisor work product in the weekly Subcommittee meetings designated for the specific Scopes impacted. The AVC Member with a potential conflict of interest does not participate in the discussion.",
+            "Finding": "Aligned",
+            "Additional Guidance": "",
+            "Needed Research":[],
+            
+            "Variations": {
+                "1": {
+                    "Description": "An AVC's Strategic Perspective is in favor of growth in emerging economies through a multi-chain strategy.An AVC Member is a limited partner in a fund that invests in L2 dAPPs serving Turkey and the Middle East. The AVC Member writes a Scope Proposal that will specifically address growth opportunities in Turkey through integrations with L2 protocols. The AVC Member's Proposal includes a provision that recommends a number of potential vendors/technologies, one of which is the technology being developed by one of the AVC Member's portfolio investments.\n The AVC discusses the proposal in the weekly Subcommittee meetings designated for the specific Scopes impacted. The AVC Member with a potential conflict of interest participates in the discussion promoting its merits. A community member confronts the AVC Member with the potential conflict of interest. In response, they acknowledge the investor relationship; but they argue that no conflict of interest exists since their Scope Proposal recommends several alternative vendors/technologies that are not a part of their investment portfolio. The AVC ratifies a set of quarterly Scope Proposals containing the AVC Member's proposal.",
+                    "Finding": "Misaligned",
+                    "Additional Guidance": "At a minimum, the AVC Member should have proactively disclosed in writing the conflict of interest prior to, or at the time of, authoring the Scope Proposal. Any provision in that Proposal that presents a potential conflict of interest should also have been prominently flagged by the AVC prior to being formally submitted. The fact that the AVC Member did not disclose the potential conflict of interest until after being confronted by a third party indicates malign intent. Finally, the misalignment risk is not ameliorated by the fact that the AVC Member presented various options in addition to the technology in which their fund is an investor.\n The FacilitatorDAO should derecognize the AVC Member. Further, per {cite to Risk Management Module logic}, the AVC itself is responsible for managing potential conflicts of interest of their members. In this Scenario, arguably, the AVC should also face disciplinary measures of some kind.",
+                    "Needed Research": [
+                        "Given that AVC Members can be anonymous, it will be difficult for AVCs to monitor potential conflicts of interest of their members."
+                    ]
+                }
+            }
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4.5": {
+        "Name": "Justifying Scope Proposals against the objective of Fairness",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "As to the “process” element: AVCs should generally ensure that all its Members are given an opportunity to participate in the internal governance process of organizing Subcommittees, interacting with stakeholders, crafting position documents, etc. There is however an important limitation to AVCs' general obligation here. An AVC is allowed to carefully gatekeep membership to keep its Strategic Perspective coherent. To this end, AVCs are empowered to remove existing AVC Members; initiate AVC splits; and deny the application of existing/new Members to increase their Declared MKR./n As to the “results” element:  an AVC has justified its Scope Proposals against the objective of Fairness when it explains how its proposed changes (the processes, procedures or mechanisms) preserve or enhance: 1) equitable treatment (appropriate to the context) of all parties involved, which includes access to, and representation in, governance processes; 2) consistency, predictability and transparency of decisions or results; and 3) mechanisms to redress grievances and ensure accountability of decision-makers in the event of misaligned behavior.\n Finally, an AVC's Scope Proposals must be wholly consistent with its declared Strategic Perspective. If the proposed changes are inconsistent with its Strategic Perspective, the AVC has failed to meet the objective of Fairness as it has effectively disenfranchised MKR holders delegating to the GSL's ADs.",
+            "See Also": {
+                "A.1.5.m7": "This module defines logic concerning approving/denying AVC Membership applications and removing existing AVC members. It is clear that AVCs have the freedom to closely curate membership.",
+                "A.1.5.m8": "This module defines the process by which, in the event of internal conflict, AVCs can easily trigger a split to create two new AVCs, each with a coherent Strategic Perspective.",
+                "TBD - A.1.5.m10": "AVCs are prohibited from engaging in behavior that would result in voter misdirection, which could be a potential result of trying to integrate inconsistent strategies into a single AVC."
+            },
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    }, 
+    
+    "A.1.5.m2-6.0.4.5.1": {
+        "Name": "Scenarios Directory",
+        "Version": 1,
+        "Type": "Scenarios Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-6.0.4.5.1.1": {
+        "Name": "Hawkish AVC issues growth-oriented Scope Proposal",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC's declared Strategic Perspective is overall hawkish, but explicitly states that it is in favor of growth in emerging economies through a multi-chain strategy. The AVC follows Atlas rules to solicit a Scope Proposal that will specifically address growth opportunities in Turkey through integrations with L2 protocols. A credentialed Scope Advisor is properly onboarded and delivers to the AVC a set of proposed changes to the relevant Scope Alignment Artifacts. The changes are narrowly tailored to support clearly defined growth metrics in Turkey through a multi-chain strategy.\n The AVC discusses the Scope Advisor work product in the weekly Subcommittee meetings. It requests the assistance of ADs to compare the scope and cost implications of the work product with the overall budget allocations across the ecosystem.\n With the support of information provided by ADs, the AVC scales down the ambition of the Scope Advisor work product. It creates a modified test-size version for ratification, which has considerably reduced costs.The AVC ratifies a set of quarterly Scope Proposals containing its modified version of the Scope Advisor work product.",
+            "Finding": "Aligned",
+            "Additional Guidance": "MKR holders delegating to an AVC with a hawkish Strategic Perspective will expect the AVC to be focused on controlling budgets and keeping spending low, even as it addresses other priorities such as growth in emerging economies.\n This Scenario and its respective Action Tenet is closely related to Risk Management Module 10, which includes logic requiring AVCs to act in alignment with their declared Strategic Perspective.",
+            "Needed Research":[],
+            
+            "Variations": {
+                "1": {
+                    "Description": "An AVC's declared Strategic Perspective is overall hawkish, but explicitly states that it is in favor of growth in emerging economies through a multi-chain strategy.The AVC follows Atlas rules to solicit a Scope Proposal that will specifically address growth opportunities in Turkey through integrations with L2 protocols. A credentialed Scope Advisor is properly onboarded and delivers to the AVC a set of proposed changes to the relevant Scope Alignment Artifacts. The changes are narrowly tailored to support clearly defined growth metrics in Turkey through a multi-chain strategy.\n The AVC discusses the Scope Advisor work product in the weekly Subcommittee meetings. In its Scope Proposal, the AVC triples the associated budget (an unprecedented move for the AVC), such that it then constitutes 50% of all budgets allocated to multi-chain strategies across the ecosystem worldwide. The AVC includes a single sentence of commentary to justify this budget increase: \"This is a once-in-a-lifetime opportunity for NEWDAO. The future is in Turkey, and we should not hesitate to go all in.\" The AVC The AVC ratifies a set of quarterly Scope Proposals containing its modified version of the Scope Advisor work product.",
+                    "Finding": "Misaligned",
+                    "Additional Guidance": "MKR holders delegating to an AVC with a hawkish Strategic Perspective will be disenfranchised by a proposal that promotes such excessive spending without any substantive analysis or justification. The AVC's single sentence of commentary fails to justify how tripling the Scope Advisor's recommended budget is aligned with the AVC's hawkish Strategic Perspective.\n This Scenario does not stand for the proposition that it is always misaligned for a hawkish AVC to propose growth-oriented initiatives. The finding of Aligned/Misaligned will turn on the substance of the AVC's Aligned Governance Strategy, i.e., whether that strategy explicitly endorses growth targets in certain circumstances, and whether the AVC's Scope Proposals have a good-faith justification of how the proposed changes align with reasonable voter expectations.",
+                    "Needed Research": [
+                    ]
+                }
+            }
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    "A.1.5.m2-6.0.4.6": {
+        "Name": "Justifying Scope Proposals against the objective of Long-Term Benefit",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "To align with the objective of Long-Term Benefit, AVCs must provide an explanation in their Scope Proposals detailing the specific, anticipated durable advantages that each proposed change will bring to the ecosystem. The anticipated durable advantages may include preserving or enhancing the Target Document's listed objectives of Transparency, Neutrality, and Fairness.",
+            "See Also": {
+            },
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    }, 
+    
+    "A.1.5.m2-6.0.4.7": {
+        "Name": "Conditions for Rebuttable Presumption of Meeting Long-Term Benefit Requirement",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If an AVC's Scope Proposal is predominantly based on the output of a Scope Advisor, with only minor details tweaked to align with its Strategic Perspective, the AVC enjoys a rebuttable presumption that it has fulfilled the requirement of Long-Term Benefit only. In such a case (unless a formal complaint has been raised), the FacilitatorDAOs need not apply strict scrutiny to evaluating the Scope Proposal for adherence to the Long-Term Benefit requirement.",
+        "See Also": {},
+        "Status": "Provisional",
+        "Needed Research": []
+    },
+    "Last_Modified": "20XX-XX-XX-00:00:00",
+    "Child_Documents": [],
+    "links_to": {},
+    "linked_from": []
+    },
+    
+    "A.1.5.m2-7": {
+        "Name": "Powers & Constraints - Aligned Scope Proposals must be accompanied by a Future Alignment Risk Analysis",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVCs' Aligned Scope Proposals must also be accompanied by a Future Alignment Risk Analysis." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-7.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-7.0.3.1": {
+        "Name": "Future Alignment Risk Analysis - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "Future Alignment Risk Analysis",
+            "Annotation": "'Future Alignment Risk' refers to misalignment risk arising from the quarterly AVC governance process, for which the Future Alignment Risk Analysis is the antidote. The Future Alignment Risk Analysis is a systematic self-assessment in which AVCs rigorously challenge their own Scope Proposals by adopting an adversarial and contrarian approach that identifies biases, assumptions, counterevidence and potential mitigating strategies to same.",
+            "Status": "Provisional",
+            "Needed Research": [
+            ]
+            },
+        "Last_Modified": "2023-11-09-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m2-7.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+        },
+    
+    "A.1.5.m2-7.0.4.1": {
+        "Name": "Future Alignment Risk Analysis Specifications",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "When an AVC submits an Aligned Scope Proposal, it must simultaneously publish an accompanying Future Alignment Risk Analysis that assesses Future Alignment Risks in the context of that Aligned Scope Proposal. A Future Alignment Risk Analysis must include two separate sections: a Risk Analysis and a Mitigation Analysis.\n The first Risk Analysis section identifies and addresses any evidence or arguments countering the benefits/justifications posed by the AVC in support of its Scope Proposals, per A.1.5.m2-6. The Risk Analysis section also specifies the assumptions underlying the AVC's proffered justifications/benefits, including identifying pertinent 'known unknowns'. Finally, the Risk Analysis section deliberates on the Future Alignment Risks, i.e., potential adverse outcomes if the AVCs' assumptions are proven false or if known unknowns turn out to be deterimental.\n The following Mitigation Analysis section specifies how each identified Future Alignment Risk could be mitigated. If the AVC does not think there are any effective means to mitigate a given Future Alignment Risk, the AVC must explicitly acknowledge this in its Scope Proposal.",
+        "See Also": {
+            "A.1.5.m2-6.0.4.6": "The cited Section requires AVCs to justify their Scope Proposals against core Universal Alignment principles. The Target Document requires AVCs to follow this demonstration by adopting a critical, contrarian approach to surface vulnerabilities in their decisionmaking and evaluation process."
+        },
+        "Status": "Provisional",
+        "Needed Research": []
+    },
+    "Last_Modified": "20XX-XX-XX-00:00:00",
+    "Child_Documents": [],
+    "links_to": {},
+    "linked_from": []
+    },
+    
+    "A.1.5.m3-1": {
+        "Name": "Process Definition - AVC ranking on EGF",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVCs are displayed on a ranked list on the landing page of the EGF, with name and AVC Profile displayed alongside their logo. The ranking is based on AVCs' total voter weight.\n Total voter weight of each AVC is calculated by summing:\n 1) total verified \"Declared MKR\" holdings of members of the AVC, and\n 2) total amount of MKR delegated to the AVC's GSL." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m3-1.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m3-1.0.3.1": {
+        "Name": "total verified 'Declared MKR' holdings - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "total verified 'Declared MKR' holdings",
+            "Annotation": "An AVC Member's 'Total' Declared MKR holdings include all of the following: MKR that is undelegated; MKR that is delegated to a Delegate contract (including shadow delegates); and MKR that is self-delegated to the Chief. 'Verified' means that the total MKR balance held in the AVC Member's blockchain account has been checked and documented by Governance FacilitatorDAOs to ensure accuracy.",
+            "Status": "Provisional",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m3-2": {
+        "Name": "Process Definition - Creating a new AVC",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "In order to create a new AVC, an Entity must first register and be recognized as an unaffiliated Aligned Voter Committee Member through a process specified in this Section." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m3-3": {
+        "Name": "Process Definition - Attaining Active Status",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "New or inactive AVCs can attain Active status after fully meeting all requirements specified in this Article for at least one full quarterly governance cycle." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m3-4": {
+        "Name": "Process Definition - Retaining Active Status",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "After achieving \"Active\" status, an AVC's retention of such status is contingent on continuing to fully meet all the requirements specified in this Article.\n Should an \"Active\" AVC fail to meet any requirement outlined in this Article at any point, it will immediately lose its \"Active\" status and all associated benefits." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1": {
+        "Name": "Process Definition - Aligned Governance Strategy instructs ADs on how to vote",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Each quarterly governance cycle, AVCs create their Aligned Governance Strategy to instruct Aligned Delegates on how to utilize the votes of their linked GSL." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4": {
+        "Name": "Action Tenets Directory",
+        "Version": 1,
+        "Type": "Action Tenets Directory",
+        "Components": {
+            "Directory index": {}
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+         "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4.1": {
+        "Name": "ADs generally required to vote in line with explicit guidance of the Aligned Governance Strategy",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If the Aligned Governance Strategy explicitly directs Aligned Delegate's voting activity, Aligned Delegates must comply, unless they believe that doing so would undermine Universal Alignment. Aligned Delegates must act as an independent check and balance against AVC misalignment.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4.X": {
+        "Name": "ADs' notice requirement if they do not vote in line with Aligned Governance Strategy",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If the Aligned Delegate does not use the votes of a GSL in alignment with the relevant AVC's Aligned Governance Strategy, the AD must notify the AVC and publish an explanation that justifies their decision with reference to the specific risk of misalignment they have identified. The notification can occur at any time prior to the publication of the pertinent Poll or Executive Vote.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4.X": {
+        "Name": "ADs have more flexibility in voting when Aligned Governance Strategy articulates high-level principles versus specific directives",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If the Aligned Governance Strategy articulates high-level principles to broadly empower Aligned Delegates, rather than explicitly directing their voting, Aligned Delegates have more flexibility in how they use the votes of their GSLs to adhere to that Aligned Governance Strategy.\n If an AVC does not agree with how an Aligned Delegate has used the votes of their GSL in line with high-level principles outlined in an Aligned Governance Strategy, it cannot ban the Aligned Delegate for misalignment. (citation) However, it can raise a formal complaint with a FacilitatorDAO. (citation)",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4.X": {
+        "Name": "AVC recourse when AD does not vote in alignment with its Aligned Governance Strategy",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If an Aligned Delegate refuses to use their votes of a given GSL as specifically directed by an Aligned Governance Strategy, as set out in Tenet 2, the AVC can choose one of two options: first, they can ban the Aligned Delegate for misalignment; alternatively, the AVC can raise a formal complaint with a FacilitatorDAO.\n If the AVC chooses to ban an Aligned Delegate for misalignment, it must issue a formal statement, supported by an official AVC vote, stating that it is breaking the GSL. No evidence or proof of 'correctness' is required on the part of the AVC. An Aligned Delegate cannot appeal the AVC's decision to break the GSL.\n If the AVC chooses to raise a formal complaint with a FacilitatorDAO, per Tenet 2 or 6, the FacilitatorDAO must adjudicate the disagreement between the AVC and the AD. However, if the FacilitatorDAO can resolve the complaint by simply applying existing FacilitatorDAO precedent, they should do so in an expedited process.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
     }
+    }
+
 }
-}
+    
+    
