@@ -2598,7 +2598,7 @@
     } , 
             
     "A.1.5.m2-1": {
-        "Name": "Powers & Constraints - AVC monitor Spiritual Alignment",
+        "Name": "Powers & Constraints - AVCs monitor Spiritual Alignment",
         "Version": 1,
         "Type": "Section",
         "Components": {
@@ -3219,7 +3219,7 @@
         "Components": {
             "Tenet": "AVC Scope Proposals must have justifications that address all the Target Document's listed objectives of Transparency, Neutrality, Fairness and Long-term Benefit.\n With respect to all of these objectives, AVCs should address two distinct things: 1) its process and 2) its results (i.e., the Scope Proposals).\n That is: first, AVCs must demonstrate how its own internal governance process (which led to the proposed changes) meets the listed objectives/values.\n Second, the AVC must address how the finished products of that internal process - the proposed modifications - serve the listed objectives/values.",
             "See Also": {
-                "A.1.5.m2-7": "AVCs are also required to conduct an Alignment Risk Analysis of their Scope Proposals."
+                "A.1.5.m2-7": "AVCs are also required to conduct a Future Alignment Risk Analysis of their Scope Proposals."
             },
             "Status": "Approved",
             "Needed Research": []
@@ -3437,7 +3437,7 @@
     }, 
     
     "A.1.5.m2-6.0.4.7": {
-        "Name": "Conditions for Rebuttal Presumption of Meeting Long-Term Benefit Requirement",
+        "Name": "Conditions for Rebuttable Presumption of Meeting Long-Term Benefit Requirement",
         "Version": 1,
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
@@ -3484,7 +3484,7 @@
         "Type": "Element Annotation",
         "Components": {
             "Element": "Future Alignment Risk Analysis",
-            "Annotation": "'Future Alignment Risk' refers to misalignment risk arising from the quarterly AVC governance process, for which the Future Alignment Risk Analysis is the antidote. The Future Alignment Risk Analysis is a systematic self-assessment in which AVCs rigorously challenge their own Scope Proposals by adopting an adversarial and contrarian approach that identifies biases, assumptions, counterevidence and potential mitigating strategies.",
+            "Annotation": "'Future Alignment Risk' refers to misalignment risk arising from the quarterly AVC governance process, for which the Future Alignment Risk Analysis is the antidote. The Future Alignment Risk Analysis is a systematic self-assessment in which AVCs rigorously challenge their own Scope Proposals by adopting an adversarial and contrarian approach that identifies biases, assumptions, counterevidence and potential mitigating strategies to same.",
             "Status": "Provisional",
             "Needed Research": [
             ]
@@ -3666,7 +3666,7 @@
     },
     
     "A.1.5.m4-1.0.4.X": {
-        "Name": "ADs have more flexibility in voting when Aligned Governance Strategy articulates high-level principles",
+        "Name": "ADs have more flexibility in voting when Aligned Governance Strategy articulates high-level principles versus specific directives",
         "Version": 1,
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
