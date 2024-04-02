@@ -1,5 +1,36 @@
 
 {
+    "A.0": {
+        "Name": "Atlas Preamble",
+        "Version": 1,
+        "Type": "Atlas Preamble",
+        "Components": {
+            "Content": null
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [
+            "A.0.0"
+        ],
+        "links_to": {},
+        "linked_from": []
+    },
+    "A.0.0": {
+        "Name": "Atlas Preamble Navigation Hub",
+        "Version": 1,
+        "Type": "Navigation Hub",
+        "Components": {
+            "Content": "The Atlas contains all data covering all aspects of operating the NEWDAO ecosystem. Further navigation: The Governance Scope Hub contains rules for governance documents and actors. The Support Scope Child Document contains rules and data related to AI tools."
+        },
+        "Last_Modified": "2023-08-16-19:07:00",
+        "Child_Documents": [
+            "A.0.0"
+        ],
+        "links_to": {
+            "The Governance Scope Hub": "A.1.0.0",
+            "The Support Scope": "A.2"
+        },
+        "linked_from": []
+    },
     "A.1": {
         "Name": "The Governance Scope",
         "Version": 1,
