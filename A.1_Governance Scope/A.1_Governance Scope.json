@@ -3225,7 +3225,7 @@
         "Components": {
             "Tenet": "AVC Scope Proposals must have justifications that address all the Target Document's listed objectives of Transparency, Neutrality, Fairness and Long-term Benefit.\n With respect to all of these objectives, AVCs should address two distinct things: 1) its process and 2) its results (i.e., the Scope Proposals).\n That is: first, AVCs must demonstrate how its own internal governance process (which led to the proposed changes) meets the listed objectives/values.\n Second, the AVC must address how the finished products of that internal process - the proposed modifications - serve the listed objectives/values.",
             "See Also": {
-                "A.1.5.m2-7": "AVCs are also required to conduct a Future Alignment Risk Analysis of their Scope Proposals."
+                "A.1.5.m2-7": "AVCs are also required to include a Future Alignment Risk Analysis in each of their Scope Proposals."
             },
             "Status": "Approved",
             "Needed Research": []
@@ -3490,7 +3490,7 @@
         "Type": "Element Annotation",
         "Components": {
             "Element": "Future Alignment Risk Analysis",
-            "Annotation": "'Future Alignment Risk' refers to misalignment risk arising from the quarterly AVC governance process, for which the Future Alignment Risk Analysis is the antidote. The Future Alignment Risk Analysis is a systematic self-assessment in which AVCs rigorously challenge their own Scope Proposals by adopting an adversarial and contrarian approach that identifies biases, assumptions, counterevidence and potential mitigating strategies to same.",
+            "Annotation": "The element 'Future Alignment Risk' refers to misalignment risk arising from AVCs' quarterly governance process, for which the Future Alignment Risk Analysis is the antidote. The Future Alignment Risk Analysis is a systematic self-assessment in which AVCs rigorously challenge their own Scope Proposals by adopting an adversarial and contrarian approach that identifies biases, assumptions, counterevidence and potential mitigating strategies to same.",
             "Status": "Provisional",
             "Needed Research": [
             ]
@@ -3519,9 +3519,9 @@
         "Version": 1,
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
-            "Tenet": "When an AVC submits an Aligned Scope Proposal, it must simultaneously publish an accompanying Future Alignment Risk Analysis that assesses Future Alignment Risks in the context of that Aligned Scope Proposal. A Future Alignment Risk Analysis must include two separate sections: a Risk Analysis and a Mitigation Analysis.\n The first Risk Analysis section identifies and addresses any evidence or arguments countering the benefits/justifications posed by the AVC in support of its Scope Proposals, per A.1.5.m2-6. The Risk Analysis section also specifies the assumptions underlying the AVC's proffered justifications/benefits, including identifying pertinent 'known unknowns'. Finally, the Risk Analysis section deliberates on the Future Alignment Risks, i.e., potential adverse outcomes if the AVCs' assumptions are proven false or if known unknowns turn out to be deterimental.\n The following Mitigation Analysis section specifies how each identified Future Alignment Risk could be mitigated. If the AVC does not think there are any effective means to mitigate a given Future Alignment Risk, the AVC must explicitly acknowledge this in its Scope Proposal.",
+            "Tenet": "AVCs' Aligned Scope Proposals must include a good-faith Future Alignment Risk Analysis. This Analysis can be placed in its own section at the very end of the Scope Proposal.\n A Future Alignment Risk Analysis must include two separate parts: a Risk Analysis and a Mitigation Analysis.\n The Risk Analysis identifies and addresses evidence or arguments countering the benefits/justifications posed by the AVC in support of its Scope Proposals, per A.1.5.m2-6. The Risk Analysis section must specify the AVC's assumptions underlying the its proffered justifications/benefits, including identifying pertinent 'known unknowns'. Finally, the Risk Analysis deliberates on the Future Alignment Risks: these are the potential adverse outcomes if: 1) the counterevidence proves true; 2) the AVCs' underlying assumptions are proven false; or 3) the 'known unknowns' turn out to be detrimental.\n The Mitigation Analysis specifies how each identified Future Alignment Risk could be mitigated. If the AVC does not think there are any effective means to mitigate a given Future Alignment Risk, the AVC must explicitly acknowledge this in its Scope Proposal.",
         "See Also": {
-            "A.1.5.m2-6.0.4.6": "The cited Section requires AVCs to justify their Scope Proposals against core Universal Alignment principles. The Target Document requires AVCs to follow this demonstration by adopting a critical, contrarian approach to surface vulnerabilities in their decisionmaking and evaluation process."
+            "A.1.5.m2-6.0.4.6": "The cited Section requires AVCs to justify their Scope Proposals against core Universal Alignment principles. The Target Document requires AVCs to follow this demonstration by adopting a critical, contrarian approach to surface vulnerabilities in their decisionmaking process."
         },
         "Status": "Provisional",
         "Needed Research": []
@@ -3530,6 +3530,57 @@
     "Child_Documents": [],
     "links_to": {},
     "linked_from": []
+    },
+
+    "A.1.5.m2-7.0.4.1.1": {
+        "Name": "FacilitatorDAO Scenario Directory",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario Directory",
+        "Components": {
+            "Directory index": {}
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+
+    "A.1.5.m2-7.0.4.1.1.1": {
+        "Name": "A valid Aligned Scope Proposal must include a Future Alignment Risk Analysis",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "On the very last day of the quarterly governance cycle, the AVC ratifies its Aligned Scope Proposals via an official vote and submits the Proposals as Active Data in the proper location of the Atlas. Several days later, a community member points out that its Proposals lack a Future Alignment Risk Analysis. Within 24 hours, the AVC hastily drafts five Alignment Risk Analyses and edits the Scope Proposals to include them.",
+            "Finding": "Misaligned",
+            "Additional Guidance": "An Aligned Scope Proposal is not valid if it does not include a Future Alignment Risk Analysis. In the Scenario, the AVC Members voted in versions of the Aligned Scope Proposals that lacked this crucial element. The current version of the Aligned Scope Proposals (with the added Future Alignment Risk Analyses) have not been properly ratified via an official AVC vote. In any event, even if the AVC had conducted an official AVC vote to ratify its edited Scope Proposals, it would have done so past the last day of the quarter. Thus, the AVC has failed to timely produce its required quarterly output and should be deactivated by the Governance FacilitatorDAOs.",
+            
+            "Needed Research":[],
+            
+            "Variations": {}
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+
+    "A.1.5.m2-7.0.4.1.1.2": {
+        "Name": "AVCs need only include their subjective assumptions in the Future Alignment Risk Analysis",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC publishes an Aligned Scope Proposal proposing language changes to the Atlas to prioritize the development of the Core Artificial Intelligence System, with an accompanying Future Alignment Risk Analysis. Community members on the forum begin to post critiques; they argue that the AVC's Future Alignment Risk Analysis is incomplete and offer, as evidence, additional assumptions underlying the AVC's Universal-Alignment justification of its Aligned Scope Proposal. The AVC responds that all its assumptions were in fact identified and listed in its Future Alignment Risk Analysis, and that, in this respect, the opinions of others are irrelevant. The critiquing community members tag the Governance FacilitatorDAO, advocating that the AVC should be deactivated for submitting an invalid Aligned Scope Proposal.",
+            "Finding": "Aligned",
+            "Additional Guidance": "In pertinent part, the Future Alignment Risk Analyses reflect the AVC's own evaluation of its subjective assumptions. The AVC need not attempt the impossible task of cataloguing all conceivable assumptions that third parties may derive.",
+            
+            "Needed Research":[],
+            
+            "Variations": {}
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
     },
     
     "A.1.5.m3-1": {
@@ -3599,7 +3650,36 @@
         "links_to": {},
         "linked_from": []
     },
+
+    "A.1.5.m3-3.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
     
+    "A.1.5.m3-3.0.3.1": {
+        "Name": "new or inactive - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "new or inactive",
+            "Annotation": "'New' refers to AVCs that have been recently formed and thus have not yet engaged in a full quarterly governance cycle. 'Inactive' refers to AVCs that failed to fulfill this Article's requirements for the most recent quarter, but fulfilled these requirements for one or more prior quarters.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+
     "A.1.5.m3-4": {
         "Name": "Process Definition - Retaining Active Status",
         "Version": 1,
@@ -3613,6 +3693,35 @@
         "linked_from": []
     },
     
+    "A.1.5.m3-4.0.3": {
+        "Name": "Element Annotations Directory",
+        "Version": 1,
+        "Type": "Element Annotations Directory",
+        "Components": {
+            "Directory index": {}
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m3-4.0.3.1": {
+        "Name": "immediately lose its Active status - Element Annotation",
+        "Version": 1,
+        "Type": "Element Annotation",
+        "Components": {
+            "Element": "immediately lose its Active status",
+            "Annotation": "The element 'immediately' is relative to when the Governance FacilitatorDAO discovers the deficiency which would require deactivating the AVC. Upon such discovery, the Governance FacilitatorDAO must deactivate the AVC 'as soon as is reasonably possible.' [Reasonableness standard...] Generally, the the FacilitatorDAO must derecognize the AVC within a timeframe of 7 business days upon conclusion of an investigation that finds against the AVC. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the FacilitatorDAO's control. If such a good-cause showing cannot be made, the FacilitatorDAO will face penalties.",
+            "Status": "Approved",
+            "Needed Research": []
+            },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+
     "A.1.5.m4-1": {
         "Name": "Process Definition - Aligned Governance Strategy instructs ADs on how to vote",
         "Version": 1,
@@ -3644,7 +3753,23 @@
         "Version": 1,
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
-            "Tenet": "If the Aligned Governance Strategy explicitly directs Aligned Delegate's voting activity, Aligned Delegates must comply, unless they believe that doing so would undermine Universal Alignment. Aligned Delegates must act as an independent check and balance against AVC misalignment.",
+            "Tenet": "If the Aligned Governance Strategy explicitly directs Aligned Delegate's voting activity, Aligned Delegates must comply, unless they believe that doing so would undermine Universal Alignment. In this way, Aligned Delegates act as an independent check and balance against AVC misalignment.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": []
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+
+    "A.1.5.m4-1.0.4.2": {
+        "Name": "ADs' notice requirement if they do not vote in line with AVC's Aligned Governance Strategy",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "If the Aligned Delegate does not use the votes of a GSL in alignment with the linked AVC's Aligned Governance Strategy, the AD must notify the AVC and publish an explanation that justifies their decision with reference to the specific misalignment risk they have identified. The notification can occur at any time prior to the publication of the pertinent Poll or Executive Vote.",
             "See Also": {},
             "Status": "Provisional",
             "Needed Research": []
@@ -3655,12 +3780,70 @@
         "linked_from": []
     },
     
-    "A.1.5.m4-1.0.4.X": {
-        "Name": "ADs' notice requirement if they do not vote in line with Aligned Governance Strategy",
+    "A.1.5.m4-1.0.4.3": {
+        "Name": "ADs have more flexibility when Aligned Governance Strategy articulates high-level principles versus specific directives",
         "Version": 1,
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
-            "Tenet": "If the Aligned Delegate does not use the votes of a GSL in alignment with the relevant AVC's Aligned Governance Strategy, the AD must notify the AVC and publish an explanation that justifies their decision with reference to the specific risk of misalignment they have identified. The notification can occur at any time prior to the publication of the pertinent Poll or Executive Vote.",
+            "Tenet": "Where an AVC's Aligned Governance Strategy sets out high-level principles or objectives, rather than explicit voting instructions, Aligned Delegates are expected to reasonably extrapolate from the high-level guidance to determine the appropriate aligned voted in any given situation. Because ADs have the flexibility to vote in whichever way they think best advances an AVC's high-level objectives, different ADs may come to different votes, given their interpretation of Universal Alignment.",
+            "See Also": {},
+            "Status": "Provisional",
+            "Needed Research": [
+                "It is so early that arguably many ecosystem agents, including AVCs and ADs, are still learning what is universally aligned. An AVC may reasonably feel competent to only issue high-level objectives and goals in its Governance Strategy; but to compensate for this, the AVC may want to know how its ADs plan to vote in all Polls/Executive Votes. Is this aligned/misaligned?"
+            ]
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+
+    "A.1.5.m4-1.0.4.3.1": {
+        "Name": "FacilitatorDAO Scenario Directory",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario Directory",
+        "Components": {
+            "Directory index": {
+            }
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4.3.1.1": {
+        "Name": "ADs' voting may diverge in edge cases where Governance Strategy provides only high-level guidance",
+        "Version": 1,
+        "Type": "FacilitatorDAO Scenario",
+        "Components": {
+            "Description": "An AVC has published an Aligned Governance Strategy which sets out high-level objectives that broadly enable their ADs to vote to maximally accelerate the development of the protocol's front-ends and consumer-facing integrations. However, there is a disagreement between some ADs and AVC members about whether a proposal to increase the incentives for protocol integrations would actually succeed in achieving more front-ends or whether it would simply reward existing integrations. Some ADs following the AVC vote in favour of the proposal with their GSLs, and some ADs vote against, all of whom cite the AVC's Aligned Governance Strategy and provide explanations for how their vote aligns with the AVC's objective.",
+            "Finding": "Aligned",
+            "Additional Guidance": "Where an AVC's Aligned Governance Strategy sets out high-level principles or objectives, rather than explicit voting instructions, ADs have the flexibility to vote pursuant to their good-faith interpretation of what best advances those high-level objectives. As in this scenario, ADs will likely differ in edge cases as to whether a proposal aligns with a given Aligned Governance Strategy.",
+            
+            "Needed Research":[],
+            
+            "Variations": {
+                "1": {
+                    "Description": "",
+                    "Finding": "",
+                    "Additional Guidance": "",
+                    "Needed Research": []
+                }
+            }
+            },
+            "Last_Modified": "20XX-XX-XX-00:00:00",
+            "Child_Documents": [],
+            "links_to": {},
+            "linked_from": []
+    },
+    
+    "A.1.5.m4-1.0.4.4": {
+        "Name": "Enforcing compliance with Aligned Governance Strategy that explicitly directs AD voting",
+        "Version": 1,
+        "Type": "FacilitatorDAO Action Tenet",
+        "Components": {
+            "Tenet": "Should an AVC determine that an AD has deviated from the explicit directives of its GSL, the AVC can summarily ban the AD. This process requires the AVC to 1) conduct an official AVC vote to affirm the decision to ban the AD; and 2) issue a formal statement declaring the termination of the AD's GSL due to non-compliance with the GSL.\n The AVC is not obligated to present evidence of any kind to enforce this ban. Furthermore, while the AD is not entitled to appeal the AVC's decision to break the GSL, the AD retains the right to issue a formal response to the ban imposed by the AVC.",
             "See Also": {},
             "Status": "Provisional",
             "Needed Research": []
@@ -3670,16 +3853,32 @@
         "links_to": {},
         "linked_from": []
     },
-    
-    "A.1.5.m4-1.0.4.X": {
-        "Name": "ADs have more flexibility in voting when Aligned Governance Strategy articulates high-level principles versus specific directives",
+
+    "A.1.5.m4-1.0.4.5": {
+        "Name": "Enforcing compliance with Aligned Governance Strategy that provides only high-level guidance",
         "Version": 1,
         "Type": "FacilitatorDAO Action Tenet",
         "Components": {
-            "Tenet": "If the Aligned Governance Strategy articulates high-level principles to broadly empower Aligned Delegates, rather than explicitly directing their voting, Aligned Delegates have more flexibility in how they use the votes of their GSLs to adhere to that Aligned Governance Strategy.\n If an AVC does not agree with how an Aligned Delegate has used the votes of their GSL in line with high-level principles outlined in an Aligned Governance Strategy, it cannot ban the Aligned Delegate for misalignment. (citation) However, it can raise a formal complaint with a FacilitatorDAO. (citation)",
+            "Tenet": "Should an AVC determine that an AD has deviated from a GSL that provides only high-level guidance, the AVC cannot summarily ban the AD. The AVC's only recourse is to amend its Aligned Governance Strategy to make more clear how its ADs should vote in a given situation.",
             "See Also": {},
             "Status": "Provisional",
-            "Needed Research": []
+            "Needed Research": [
+                "One possibility is to develop a process by which the Governance FacilitatorDAOs can settle conflicts between ADs and an AVC in this instance. But then one has to consider the impacts of increasing overhead in a resource-constrained situation.",
+                "Need to add logic in this Article (?) that the AVC can/cannot amend its Governance Strategy at any time during the Quarter. It is not limited to just one update each quarter, though this is the minimum required of AVCs."
+            ]
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+
+    "A.1.5.m4-2": {
+        "Name": "Process Definition - Aligned Governance Strategy Specifications",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The first section of this Aligned Governance Strategy is the AVC Profile. \nThis Profile is displayed prominently within the EGF and other vital Maker Governance interfaces. The Profile has a 280-character limit.\nThis brevity is intentional, requiring AVCs to summarize their Strategic Perspective clearly and concisely.\nThis gives EGF users a clear understanding of what it means to delegate their votes to an AVC's Strategic Perspective.\nAn AVC's Strategic Perspective should accurately encompass its Aligned Governance Strategy and Aligned Scope Proposals." 
         },
         "Last_Modified": "20XX-XX-XX-00:00:00",
         "Child_Documents": [],
@@ -3687,15 +3886,285 @@
         "linked_from": []
     },
     
-    "A.1.5.m4-1.0.4.X": {
-        "Name": "AVC recourse when AD does not vote in alignment with its Aligned Governance Strategy",
+    "A.1.5.m4-3": {
+        "Name": "Process Definition - Aligned Governance Strategy",
         "Version": 1,
-        "Type": "FacilitatorDAO Action Tenet",
+        "Type": "Section",
         "Components": {
-            "Tenet": "If an Aligned Delegate refuses to use their votes of a given GSL as specifically directed by an Aligned Governance Strategy, as set out in Tenet 2, the AVC can choose one of two options: first, they can ban the Aligned Delegate for misalignment; alternatively, the AVC can raise a formal complaint with a FacilitatorDAO.\n If the AVC chooses to ban an Aligned Delegate for misalignment, it must issue a formal statement, supported by an official AVC vote, stating that it is breaking the GSL. No evidence or proof of 'correctness' is required on the part of the AVC. An Aligned Delegate cannot appeal the AVC's decision to break the GSL.\n If the AVC chooses to raise a formal complaint with a FacilitatorDAO, per Tenet 2 or 6, the FacilitatorDAO must adjudicate the disagreement between the AVC and the AD. However, if the FacilitatorDAO can resolve the complaint by simply applying existing FacilitatorDAO precedent, they should do so in an expedited process.",
-            "See Also": {},
-            "Status": "Provisional",
-            "Needed Research": []
+            "Content": "Over time, AVCs will differentiate and evolve. Norms or standardized ways to effectively communicate particular strategic perspectives will emerge.\nTo facilitate clear communication and prevent voter confusion or misdirection, it is essential for all AVCs to adhere to these best practices as much as possible." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m4-4": {
+        "Name": "Process Definition - Aligned Governance Strategy",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The Aligned Governance Strategy must be formally ratified via an official AVC decision.\nThe Aligned Governance Strategy must also be submitted as Active Data into a Document under the Aligned Voter Committee Active Data section." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m5-1": {
+        "Name": "Process Definition - Aligned Scope Proposals & Subcommittees",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Each quarterly governance cycle, an AVC must create a legitimate Aligned Scope Proposal for each of the 5 Scopes." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m5-2": {
+        "Name": "Process Definition - Aligned Scope Proposals & Subcommittees",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Aligned Scope Proposals are documents that contain proposed updates to the Adaptive Documents of each Scope.\nThe Scope Proposals are more rigorous than the Aligned Governance Strategy.\nTypically, the Scope Advisors lay the foundation for these Scope Proposals, upon which foundation the AVC adds its distinct strategic perspective." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m5-3": {
+        "Name": "Process Definition - Aligned Scope Proposals & Subcommittees",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVCs' work must be focused on the creation of the Aligned Scope Proposals.\nFor this purpose, AVCs are required to convene a total of ten (10) scheduled AVC Subcommittee Meetings each quarterly cycle.\nAVCs must use the Subcommittees to discuss how the Adaptive Documents were applied to regulate the ecosystem in practice, and what possible changes to the Adaptive Documents could improve results next quarter.\nIn proposing modifications to the Adaptive Documents, AVCs are constrained to the limitations specified in this Article." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m5-4": {
+        "Name": "Process Definition - Aligned Scope Proposals & Subcommittees",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Generally, the AVC Subcommittee Meetings should be held during the first ten (10) whole weeks of each quarter, in the following order: Week 1: Governance Scope\n Week 2: Support Scope \nWeek 3: Protocol Scope \nWeek 4: Stability Scope \nWeek 5: Accessibility Scope \nWeek 6: Governance Scope \nWeek 7: Support Scope \nWeek 8: Protocol Scope \nWeek 9: Stability Scope \nWeek 10: Accessibility Scope\nIf a Subcommittee Meeting is cancelled for any reason, the AVC must officially reschedule and convene the Subcommittee within seven (7) calendar days. All AVC Subcommittee Meetings, including regularly scheduled and rescheduled Subcommittees, must take place within the first eleven (11) whole weeks of each quarter." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m5-5": {
+        "Name": "Process Definition - Aligned Scope Proposals & Subcommittees",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The Aligned Scope Proposals must be formally ratified via an official AVC decision.\nThe Aligned Scope Proposals must also be submitted as Active Data into a Document under the Aligned Voter Committee Active Data section." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m6-1": {
+        "Name": "Process Definition - Voting & Declared MKR",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Through an official vote, AVCs must ratify all decisions necessary to carry out their governance role.\nThese decisions include determining membership, splitting an AVC, issuing Aligned Governance Strategy and Aligned Scope Proposals, scheduling Subcommittees and announcing Participation Guidelines for Aligned Delegates.\nAVCs internal governance process is documented in the Aligned Voter Committee Active Data Section." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m6-2": {
+        "Name": "Process Definition - Voting & Declared MKR",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "When an entity wishes to apply to an AVC, it must specify in the application the amount of MKR held in its blockchain account.\nThis is its \"Declared MKR”, which determines its voting power in AVC decision-making.\nAssuming the entity's membership application is accepted by the AVC, the Governance Facilitators must adhere to the following procedure prior to officially recognizing the entity as an AVC Member. First, the Governance Facilitators must check the wallet address. Second, they must verify the accuracy of the Declared MKR amount. Third, they must record the Declared MKR amount in the appropriate Atlas document." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m6-3": {
+        "Name": "Process Definition - Voting & Declared MKR",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "An AVC Member can only increase or decrease its \"Declared MKR” through submitting another membership application that is accepted via an official AVC decision.\nThe \"Declared MKR” of the creator of an AVC is determined when they create the AVC. The AVC Creator can increase or decrease its Declared Maker unilaterally, without the need for an official AVC decision." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m6-4": {
+        "Name": "Process Definition - Voting & Declared MKR",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Generally, all AVCs must follow the same, standardized internal governance process to properly ratify decisions through an official vote.\nAVC Members vote on AVC decisions based on their relative ownership of Declared MKR.\nIf a simple majority is reached, the decision is accepted or rejected instantly.\nOtherwise, a vote concludes after one whole week, resolving with acceptance or rejection based on the amount of Declared MKR that votes for each option. " 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m6-5": {
+        "Name": "Process Definition - Voting & Declared MKR",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "An AVC Member's voting power is determined exclusively by their Declared MKR.\nIf an AVC Member's blockchain account holds MKR in excess of their Declared MKR, they do not gain additional voting power in the AVC's internal governance process.\nHowever, any excess MKR in an AVC Member's account is considered when determining eligibility for AVC Participation Rewards. These rewards are calculated based on the total MKR balance in the member's account." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m6-6": {
+        "Name": "Process Definition - Voting & Declared MKR",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "An AVC Member's blockchain account is required to maintain the Declared MKR amount at all times.\nShould the MKR balance fall below the Declared MKR amount at any time and for any duration, the AVC Member will be removed from the AVC. This applies even if the MKR balance is subsequently restored to the correct amount." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m7-1": {
+        "Name": "Process Definition - AVC Membership",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVC Member applications must be accepted or rejected through an official AVC decision.\nExisting AVC Members are not required to supply any reason when accepting or rejecting a Membership Application, whether it be an initial membership application or an application to adjust a Members Declared MKR." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m7-2": {
+        "Name": "Process Definition - AVC Membership",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Existing AVC Members can be removed through an official AVC decision.\nAVC Members can choose to remove another AVC Member for any reason. AVC Members are not required to provide any reasoning when voting to remove an existing Member." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m8-1": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "A minority quorum of AVC Members based on Declared MKR can trigger an AVC split. Apart from this, there are no restrictions on triggering an AVC split." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m8-2": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "To effect a Split, all AVC Members vote to support one of two new AVCs. The side with the greater MKR support will inherit the naming rights and infrastructure.\nThe AVC Members of each of the two new AVCs is determined based on who voted to support each side." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m8-3": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "Following a split, the Governance Strategy Links of all Aligned Delegates following the AVC are divided proportionally into two new Protocol Delegation Contracts.\nEach new Contract contains an amount of delegated MKR that is proportional to the MKR supporting each side of the AVC split." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m8-4": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "This Section must define the minority quorum to effectively fulfill its intended purpose. It should strike an optimal balance between ensuring fair representation of AVC Members' interests and maintaining procedural efficiency." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m9-1": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVC Members can be eligible for AVC Member Participation Rewards that recognizes the time they are spending to support Maker Governance.\nThe AVC Member Participation Rewards are distributed quarterly and are contingent upon active participation in each of the 5 Scopes.\nTo qualify for the Participation Reward for a particular Scope, the AVC Member must meet the following criteria:\n1) The Member must have attended both Subcommittee Meetings devoted to that Scope.\n2) The Member must have co-authored both the AVC's Aligned Governance Strategy and the Aligned Scope Proposal for that particular Scope.\n Depending on their attendance record and authorial contributions to Aligned Scopes, a Member could qualify for rewards in as few as one or as many as all five Scopes. " 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m9-2": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "The yearly total AVC Member Participation Rewards is 20 million NewGovToken.\nThis total is divided into 5 tranches, one for each Scope. In a quarterly governance cycle, each tranche is allocated 1 million NewGovTokens.\nEach tranche rewards are distributed across a set number of reward slots. The number of rewards slots for each tranche is equivalent to the total amount of PD and RD.\nThe reward slots of a tranche are awarded to the AVC Members who have fulfilled the Participation Requirements for the tranche and have the highest total MKR balances." 
+        },
+        "Last_Modified": "20XX-XX-XX-00:00:00",
+        "Child_Documents": [],
+        "links_to": {},
+        "linked_from": []
+    },
+    
+    "A.1.5.m9-3": {
+        "Name": "Process Definition - AVC Splits",
+        "Version": 1,
+        "Type": "Section",
+        "Components": {
+            "Content": "AVCs receive support and infrastructure from the Support Scope." 
         },
         "Last_Modified": "20XX-XX-XX-00:00:00",
         "Child_Documents": [],
@@ -3703,5 +4172,4 @@
         "linked_from": []
     }
     }
-    
     
