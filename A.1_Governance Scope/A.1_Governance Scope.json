@@ -4052,7 +4052,7 @@
         "Version": 1,
         "Type": "Section",
         "Components": {
-            "Content": "Generally, all AVCs must follow the same, standardized internal governance process to properly ratify decisions through an official vote.\nAVC Members vote on AVC decisions based on their relative ownership of Declared MKR.\nIf a simple majority is reached, the decision is accepted or rejected instantly.\nOtherwise, a vote concludes after one whole week, resolving with acceptance or rejection based on the amount of Declared MKR that votes for each option. " 
+            "Content": "Generally, all AVCs must follow the same, standardized internal governance process to properly ratify decisions through an official vote. This process is contained in the Aligned Voter Committee Active Data Section.\n AVC Members vote on AVC decisions based on their relative ownership of Declared MKR.\n If a simple majority is reached, the decision is accepted or rejected instantly.\n Otherwise, a vote concludes after one whole week, resolving with acceptance or rejection based on the amount of Declared MKR that votes for each option. " 
         },
         "Last_Modified": "20XX-XX-XX-00:00:00",
         "Child_Documents": [],
