@@ -1094,6 +1094,20 @@
         <tr>
           <td>
             <dfn>A.0.1
+              - Atlas Preamble - Definitions - Voting Power</dfn>
+          </td>
+          <td>Atlas Preamble - Definitions - Voting Power</td>
+          <td>Core</td>
+          <td>
+            “Voting Power” denotes the ability of Aligned Delegates to vote on Sky governance decisions on behalf 
+            of a SKY or MKR holder. SKY and MKR holders can delegate their Voting Power to an Aligned Delegate 
+            through Delegate Contracts, allowing the Aligned Delegate to vote on their behalf while the SKY or 
+            MKR holders retain control of their tokens.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.0.1
               - A2 - Atlas Preamble - General Provisions</dfn>
           </td>
           <td>Atlas Preamble - General Provisions</td>
@@ -1979,9 +1993,10 @@
           </td>
           <td>Aligned Delegates - Budget And Participation Requirements - Eligibility To Receive Budget</td>
           <td>Section</td>
-          <td>Aligned Delegates are eligible to receive a budget from the Sky Protocol if they fulfill two (2)
-            requirements: 1) They rank among the top ADs based on total votes delegated to their Delegate
-            Contract, and 2) They fulfill specific participation requirements defined in this Article.</td>
+          <td>Eligibility To Receive Budget - Aligned Delegates are eligible to receive a budget from the Sky Protocol 
+            if they fulfill two (2) requirements: 1) They rank among the top Aligned Delegates based on total Voting 
+            Power delegated to their Delegate Contract, and 2) They fulfill specific participation requirements defined 
+            in this Article.</td>
         </tr>
         <tr>
           <td>
@@ -1991,9 +2006,8 @@
           <td>Aligned Delegates - Budget And Participation Requirements - Prime Delegates</td>
           <td>Section</td>
           <td>
-            Aligned Delegates (ADs) who receive a budget are designated as Prime Delegates (PDs). The PD slots
-            are allocated to the ADs with the highest number of delegated votes. The number of PD slots is
-            specified in <dfn>A.1.5
+            Aligned Delegates with the greatest delegated Voting Power are designated as Prime Delegates and receive a budget. 
+            The number of Prime Delegate slots is specified in <dfn>A.1.5
               - Aligned Delegates - Budget And Participation Requirements - Number of Prime Delegate
               Slots</dfn>.
           </td>
@@ -2005,8 +2019,7 @@
           </td>
           <td>Aligned Delegates - Budget And Participation Requirements - Number of Prime Delegate Slots</td>
           <td>Section</td>
-          <td>The six (6) Aligned Delegates receiving the highest number of delegated votes are the Prime
-            Delegates (PDs).</td>
+          <td>The six (6) Aligned Delegates with the greatest delegated Voting Power are the Prime Delegates.</td>
         </tr>
         <tr>
           <td>
@@ -2052,15 +2065,27 @@
         <tr>
           <td>
             <dfn>A.1.5
-              - Aligned Delegates - Budget And Participation Requirements - AD Buffer And Loss Of Budget
-              Stream</dfn>
+              - Aligned Delegates - Budget And Participation Requirements - AD Buffer And Loss Of Budget</dfn>
           </td>
-          <td>Aligned Delegates - Budget And Participation Requirements - AD Buffer And Loss Of Budget Stream</td>
+          <td>Aligned Delegates - Budget And Participation Requirements - AD Buffer And Loss Of Budget</td>
           <td>Section</td>
-          <td>If an AD loses a part of its budget stream due to a transition from Prime Delegate (PD) to Aligned
-            Delegate (AD), their AD Buffer will stay paying out its excess funds until the remaining balance
-            equals one month's budget allocation. If an AD loses its entire budget stream, the full contents of
-            the AD Buffer can be spent.</td>
+          <td>If an AD loses its budget due to losing its Prime Delegate rank, the full contents of the AD Buffer 
+            can be paid out in the next AD compensation cycle, except as specified in <dfn>A.1.5 - Aligned Delegates - 
+            Budget And Participation Requirements - Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals</dfn>.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.5
+              - Aligned Delegates - Budget And Participation Requirements - AD Buffer And Loss Of Budget - 
+              Payout Limitations For ADs Triggering Atlas Edit Weekly Cycle Proposals</dfn>
+          </td>
+          <td>Aligned Delegates - Budget And Participation Requirements - AD Buffer And Loss Of Budget - Payout Limitations 
+            For ADs Triggering Atlas Edit Weekly Cycle Proposals</td>
+          <td>Section</td>
+          <td>If an AD has triggered an Atlas Edit Weekly Cycle Proposal pursuant to <dfn>A.1.11 - Weekly Governance Cycle - Atlas Edit 
+            Weekly Cycle - Triggering Requirement</dfn>, no payouts may be made that would reduce their AD Buffer below one (1) month’s 
+            worth of the budget specified in <dfn>A.1.5 - Aligned Delegates - Budget And Participation Requirements - Budget Amount For 
+            Prime Delegate Slots</dfn> until the Proposal has been voted on or rejected by the Governance Facilitators for misalignment.</td>
         </tr>
         <tr>
           <td>
@@ -2936,7 +2961,10 @@
           <td>Sky Core Governance Security - Governance Security Delay Requirements - Smart Burn Engine Breaker
             Exception</td>
           <td>Core</td>
-          <td>The SplitterMom contract allows for the disabling of the Smart Burn Engine without the GSM delay. This functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine. Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Seal Rewards, the activation of SplitterMom also disables these rewards until the activation is reversed by Sky Governance.</td>
+          <td>The SplitterMom contract allows for the disabling of the Smart Burn Engine without the GSM delay. This 
+            functionality is available so that Sky Governance can react to emergencies regarding the Smart Burn Engine. 
+            Since the Splitter contract also allocates USDS from the Surplus Buffer to USDS Seal Rewards, the activation 
+            of SplitterMom also disables these rewards until the activation is reversed by Sky Governance.</td>
         </tr>
         <tr>
           <td>
@@ -2977,25 +3005,98 @@
         <tr>
           <td>
             <dfn>A.1.9
-              - Sky Core Governance Security - Governance Security Culture And Research - MultiSig Freeze Of
+              - Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
               SparkLend</dfn>
           </td>
-          <td>Sky Core Governance Security - Governance Security Culture And Research - MultiSig Freeze Of
+          <td>Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
             SparkLend</td>
           <td>Core</td>
           <td>
             In addition to the SparkLend Freezer Mom contract defined in <dfn>A.1.9
               - Sky Core Governance Security - Governance Security Delay Requirements - SparkLend Freezer Mom
-              Exception</dfn>, an External Security Access Multisig that allows for pausing and/or freezing
-            SparkLend markets must be researched and implemented. The Multisig Freeze feature of SparkLend
-            should exist alongside the SparkLend Freezer Mom contract, ensuring that the Sky community can take
-            timely action in case of an emergency which requires immediate intervention.The implementation must
-            be justified by research and argumentation. The solution must be implemented in a way where Sky
-            Governance preserves the ability to disable the solution without argumentation and GSM delay, and
-            preserves total control over the protocol.The solution can only be used in cases of extreme
-            emergencies such as potential code exploits which have existential threat potential. The solution
-            must be ratified by Sky Governance with an on-chain Governance Poll before being deployed.
+              Exception</dfn>, an external SparkLend Security Access Multisig has been established that allows 
+            for pausing and/or freezing SparkLend markets. The SparkLend Security Access Multisig can enable or 
+            disable the SparkLend Freezer Mom contract without the need for inclusion in a spell through the 
+            standard Executive Vote process.<br> Each action executed by the Multisig, including any function 
+            calls and their parameters, must be reported to the Sky community within a reasonable time frame 
+            through a post on the Sky Forum. Such actions include activating or disabling the pause or freeze function.
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9
+              - Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+              SparkLend - SparkLend Multisig Usage Standards</dfn>
           </td>
+          <td>Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+            SparkLend - SparkLend Multisig Usage Standards</td>
+          <td>Core</td>
+          <td>
+            The SparkLend Security Access Multisig can only be used in urgent or emergency situations (e.g., 
+            potential code exploits). Such situations are characterized by the fact that 1) they have the potential 
+            to harm the Sky Ecosystem or SparkLend users; and 2) the preparation time required for an Executive 
+            Vote would leave the ecosystem vulnerable to harm (e.g., an exploit).<br> The Multisig should be used to 
+            prevent technical vulnerabilities; prevent unwanted functionality of the smart contracts or corresponding 
+            parts of the system (e.g., price oracles); or prevent unwanted usage of the smart contracts or corresponding 
+            parts of the system which deviates from intended behavior.<br> The Multsig can also be used in cases where 
+            a vulnerability or exploit is discovered in other protocols using the same codebase as SparkLend, and a 
+            timely action can prevent or mitigate the damage.<br> The Governance Facilitators must ensure that use of 
+            the Multisig is generally aligned and specifically accords with the requirements defined herein.
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9
+              - Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+              SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Number Of Signers</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+            SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Number Of Signers</td>
+          <td>Core</td>
+          <td>
+            The SparkLend Security Access Multisig currently has a 2/5 signing requirement.
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9
+              - Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+              SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Current Signers</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+            SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Current Signers</td>
+          <td>Core</td>
+          <td>
+            The SparkLend Security Access Multisig currently has the following signers:• VoteWizard• LDR• Hexonaut• MonetSupply• Rema
+        </tr>
+         <tr>
+          <td>
+            <dfn>A.1.9
+              - Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+              SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Signer Modifications</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+            SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Signer Modifications</td>
+          <td>Core</td>
+          <td>
+            Modification of the signers of the SparkLend Security Access Multisig must be approved through a Governance 
+            Poll; no Executive Vote is required.<br>The only exceptions to this are if: 1) a signer self-reports a loss 
+            of access to their private key due to any reason; or 2) a signer explicitly expresses their wish to be removed 
+            as a signer. In both cases, the signer is required to communicate the loss of access to their private key, or the 
+            wish to be removed as a signer, in the form of a public Sky Forum post. The specific signer should be replaced 
+            as soon as possible.<br> Any changes to the Multisig signers that do not fall within the two exceptions listed above, 
+            or that have not been ratified by Sky Governance, should be questioned immediately and treated as malicious. The 
+            Governance Facilitators should consider preparing an expedited Executive Vote so that Sky Governance can vote on 
+            removing external security access from the Multisig.
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.1.9
+              - Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+              SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Address</dfn>
+          </td>
+          <td>Sky Core Governance Security - Governance Security Culture And Research - Multisig Freeze Of
+            SparkLend - SparkLend Multisig Usage Standards - SparkLend Multisig Address</td>
+          <td>Core</td>
+          <td>
+            The current whitelisted SparkLend Security Access Multisig address is:<br> 0x44efFc473e81632B12486866AA1678edbb7BEeC3
         </tr>
         <tr>
           <td>
@@ -3010,6 +3111,22 @@
             decisions to be made that require quicker action than is allowed by the Monthly Governance Cycle.
           </td>
         </tr>
+        <tr>
+          <td>
+            <dfn>A.1.11
+              - Weekly Governance Cycle - Operational Weekly Cycle - Edits To The Atlas</dfn>
+          </td>
+          <td>Weekly Governance Cycle - Operational Weekly Cycle - Edits To The Atlas</td>
+          <td>Core</td>
+          <td>The Operational Weekly Cycle may be used to edit the Atlas only if the pertinent Atlas document specifies 
+            that it, or a related unit of governance logic which it expressly controls, is modifiable through the 
+            Operational Weekly Cycle.<br>The general rule is that an Operational Weekly Cycle proposal requires a Governance 
+            Poll followed by an Executive Vote. The general rule, by default, is assumed wherever the Atlas provides that a 
+            document, or a unit of governance logic controlled by said document, is modifiable through the Operational 
+            Weekly Cycle.<br>Any exception to the general rule must be specifically stated in the pertinent Atlas document. 
+            The possible exceptions include documents that can be modified subject to a Governance Poll only; and documents 
+            that can be modified subject to an Executive Vote only, without requiring a previous Governance Poll.
+          </td>
         <tr>
           <td>
             <dfn>A.1.11
@@ -3236,18 +3353,18 @@
           <td>Weekly Governance Cycle - Atlas Edit Weekly Cycle - Triggering Requirement</td>
           <td>Core</td>
           <td>
-            An Atlas Edit Weekly Cycle Proposal (also "Weekly Cycle Proposal" or "Proposal") can proceed to a
-            vote only if it is triggered by a Prime Delegate whose AD buffer contains at least one (1) month's
-            worth of budget. The value of this threshold in USDS is currently specified in <dfn>A.1.5
+            An Atlas Edit Weekly Cycle Proposal (also “Weekly Cycle Proposal” or “AEW Proposal”) can proceed to 
+            a vote only if it is triggered by a Prime Delegate whose AD Buffer contains at least one (1) month’s 
+            worth of budget at the time of triggering the Proposal. The value of this threshold in USDS is currently 
+            specified in <dfn>A.1.5
               - Aligned Delegates - Budget And Participation Requirements - Budget Amount For Prime Delegate
-              Slots</dfn>.Aligned Delegates (including Prime Delegates) are prohibited from authoring an Atlas
-            Edit Weekly Cycle Proposal. Prime Delegates are limited to triggering Proposals authored by others.
-            To trigger a Proposal, the Prime Delegate must post a reply to the Author's Weekly Cycle Proposal on
-            the Forum. The Prime Delegate's post should signal their intent to trigger the Weekly Cycle
-            Proposal. Where more than one Prime Delegate posts an intention to trigger a Weekly Cycle Proposal,
-            the first Prime Delegate to post a reply to the Author's Forum post shall be treated as the
-            triggering Prime Delegate.If the Weekly Cycle Proposal is subsequently voted down, the triggering
-            Prime Delegate loses their entire AD buffer.
+              Slots</dfn>. The Governance Facilitators are responsible for confirming that these requirements are met.<br>Aligned 
+            Delegates (including Prime Delegates) are prohibited from authoring an Atlas Edit Weekly Cycle Proposal. Prime Delegates 
+            are limited to triggering Proposals authored by others. To trigger a Proposal, the Prime Delegate must post a reply to 
+            the Author’s Weekly Cycle Proposal on the Forum. The Prime Delegate’s post should signal their intent to trigger 
+            the Weekly Cycle Proposal.<br>Where more than one Prime Delegate posts an intention to trigger a Weekly Cycle Proposal, 
+            the first Prime Delegate to post a reply to the Author’s Forum post shall be treated as the triggering Prime Delegate.<br>If 
+            the Weekly Cycle Proposal is subsequently voted down, the triggering Prime Delegate loses their entire AD Buffer.
           </td>
         </tr>
         <tr>
@@ -3379,8 +3496,8 @@
           </td>
           <td>Monthly Governance Cycle - Atlas Edit Monthly Cycle - Origination</td>
           <td>Core</td>
-          <td>The author of an Atlas Edit Monthly Cycle proposal ("proposal", "Atlas Edit Proposal", or "AEP")
-            must post the proposal in the Sky Forum under the appropriate category.</td>
+          <td>The author of an Atlas Edit Monthly Cycle proposal (”proposal”, “Atlas Edit Proposal”, “AEP”, “Monthly Cycle Proposal”, 
+            or “AEM Proposal”) must post the proposal in the Sky Forum under the appropriate category.</td>
         </tr>
         <tr>
           <td>
@@ -6930,224 +7047,17 @@
         <tr>
           <td>
             <dfn>A.3.5
-              - A1 - Surplus Buffer And Smart Burn Engine - Surplus Buffer Upper Limit</dfn>
+              - A1 - Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters</dfn>
           </td>
-          <td>Surplus Buffer And Smart Burn Engine - Surplus Buffer Upper Limit</td>
+          <td>Surplus Buffer And Smart Burn Engine - Surplus Buffer Splitter Parameters</td>
           <td>Section</td>
-          <td>This Section defines the Surplus Buffer Upper Limit and key parameters of the Smart Burn Engine.
+          <td>The current Surplus Buffer Splitter parameters are:• vow.hump: 60m (Threshold of Surplus buffer for Splitter to activate)•
+              Estimated Net protocol Income: 100,765,523• 50% of estimated net protocol income is sent to Splitter: 50,382,762 (for SBE and 
+              Seal Module, remaining 50% is accumulated in Surplus Buffer). This value must be regularly updated through an executive vote to 
+              continue to target 50% of the estimated net protocol income.• vow.bump: 25,000 DAI• splitter.hop: 15,649 seconds• 70% of 
+              Splitter allocation is set to accumulate SKY• 30% of Splitter allocation is set to reward Seal users• burn (the percentage of 
+              the vow.bump to be moved to the underlying flapper): 70% (0.70 * WAD). Flapper must maintain its legacy values.</td>
           </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters</td>
-          <td>Core</td>
-          <td>The amount of USDS in the Surplus Buffer that causes the Smart Burn Engine to activate, and the rate
-            at which it uses the USDS to improve SKY liquidity, are determined by two parameters defined by the
-            following subdocuments. The Smart Burn Engine, which defines specific parameter configuration
-            requirements of DssFlapper, and how it should be altered are also defined in the following
-            subdocuments.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Upper Limit</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Upper Limit</td>
-          <td>Core</td>
-          <td>The Surplus Buffer Upper Limit determines the amount of USDS necessary for the Smart Burn Engine to
-            activate.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Upper Limit Amount</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Upper Limit Amount</td>
-          <td>Core</td>
-          <td>The Surplus Buffer Upper Limit is: 55 million USDS</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - SKY Accumulation</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - SKY Accumulation</td>
-          <td>Core</td>
-          <td>The Smart Burn Engine can switch between accumulating SKY/USDS liquidity and directly accumulating
-            SKY only.The Stability Facilitators can trigger a switch from one mode of accumulation to the other,
-            based on market factors and input from the Stability Scope Advisors.By default, the Smart Burn
-            Engine must be switched to directly accumulating SKY only.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Rate Of SKY Accumulation</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Rate Of SKY Accumulation</td>
-          <td>Core</td>
-          <td>The rate of SKY Accumulation should target the approximate net surplus income rate of the Sky
-            Protocol. The Stability Facilitators must regularly update the relevant Smart Burn Engine
-            parameters, in consultation with the Stability Scope Advisors, to ensure they continuously track the
-            net surplus income rate.Stability Facilitators should aim to slightly underestimate the net surplus
-            income rate. This approach allows the Surplus Buffer to slowly grow above its upper limit, while
-            ensuring that most of the net surplus income is used by the Smart Burn Engine, Activation, and
-            Sealing.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - SKY Maximum Price</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - SKY Maximum Price</td>
-          <td>Core</td>
-          <td>If the SKY price surpasses 0.33 USD, the Smart Burn Engine must be turned off, and the Surplus
-            Buffer Upper Limit set to infinity via an Executive Vote.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - DssFlapper</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - DssFlapper</td>
-          <td>Core</td>
-          <td>DssFlapper is the current implementation of the contract which processes Smart Burn Engine
-            transactions once activated. The DssFlapper includes the following parameters: hop, want, bump, pip
-            and receiver. Stability Facilitators can propose DssFlapper reconfiguration within limits defined in
-            each parameter's corresponding document. The Stability Facilitators can propose these changes
-            directly to an Executive Vote, with the exception of the receiver and pip . These parameters always
-            require a Governance Poll, unless the Sky Protocol is in a state of emergency, such that the
-            expedited modification of parameters is necessary to prevent loss of funds.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Hop Parameter</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Hop Parameter</td>
-          <td>Core</td>
-          <td>
-            Flapper.hop: Minimum seconds interval between kicks.Determines maximum allowed frequency of
-            transactions taking place.Maximum hop must be set to equal the approximate Effective Rate of MKR
-            Accumulation defined in <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters</dfn> depending on the corresponding
-            configuration of bump parameter.
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Hop Parameter Amount Of Seconds</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Hop Parameter Amount Of Seconds</td>
-          <td>Core</td>
-          <td>The hop parameter is: 11,635 seconds</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Want Parameter</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Want Parameter</td>
-          <td>Core</td>
-          <td>Flapper.want: Relative multiplier of the oracle price needed for the swap.For example, 0.98 * WAD
-            allows for a 2% worse price than the MKR/USD reference oracle (pip) price used in the system. want
-            must not exceed 2%.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Want Parameter Number</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Want Parameter Number</td>
-          <td>Core</td>
-          <td>The want parameter is: 0.98</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Bump Parameter</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Bump Parameter</td>
-          <td>Core</td>
-          <td>Vow.bump: Minimum amount of Dai above Surplus Buffer Upper Limit required for eligible market
-            transaction. bump is the amount of Dai used to get MKR. The bump should be set to minimize both
-            price impact and transaction costs, based on an analysis of network conditions provided by the
-            Stability Scope Advisors and the anticipated outlook for these factors.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Bump Parameter Amount</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Bump Parameter Amount</td>
-          <td>Core</td>
-          <td>The bump parameter is: 25,000 DAI</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Pip Parameter</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Pip Parameter</td>
-          <td>Core</td>
-          <td>Flappers.pip: A reference price oracle, used for bounding the exchange rate of the swap.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Pip Parameter Address</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Pip Parameter Address</td>
-          <td>Core</td>
-          <td>The pip parameter is: 0x61A12E5b1d5E9CC1302a32f0df1B5451DE6AE437</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Receiver Parameter</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Receiver Parameter</td>
-          <td>Core</td>
-          <td>receiver: address which will receive the Univ2 MKR/Dai LP token.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Receiver Parameter Address</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Receiver Parameter Address</td>
-          <td>Core</td>
-          <td>The receiver parameter is:MCD_PAUSE_PROXY: 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Parameter Reconfiguration Methodology &
-              Frequency</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Parameter Reconfiguration Methodology &
-            Frequency</td>
-          <td>Core</td>
-          <td>Via the first available Executive Vote, the Stability Facilitators must update the Smart Burn Engine
-            Dss Flapper related parameters based on cost optimization analyses provided by the Stability Scope
-            Advisors. Due to the volatility of market impact and gas consumption, which are key factors in cost
-            optimization, there is no fixed frequency for these updates. The Scope Advisors are responsible for
-            continuously monitoring the Smart Burn Engine and notifying the Stability Facilitators when changes
-            are needed. This notification must include the relevant analysis and proposed parameter adjustments
-            within the established limits and boundaries defined by the Stability Scope.</td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>A.3.5
-              - Surplus Buffer And Smart Burn Engine - Parameters - Migration</dfn>
-          </td>
-          <td>Surplus Buffer And Smart Burn Engine - Parameters - Migration</td>
-          <td>Core</td>
-          <td>The Smart Burn Engine and corresponding liquidity must be migrated to USDS/SKY when this is
-            technically available.</td>
         </tr>
         <tr>
           <td>
@@ -7385,12 +7295,13 @@
           </td>
           <td>Measures For Endgame Transition - Native Vault Engine - Liquidation Ratio</td>
           <td>Core</td>
-          <td>The Liquidation Ratio parameter limits the maximum amount of Dai debt that a vault user can draw
-            from their vault given the value of their collateral locked in that vault. In practice, it expresses
-            the minimum collateral in percentage terms that can support a given Dai debt. If the ratio of a
-            Vault user's collateral to their debt drops below this value, their vault can be liquidated. Each
-            vault type has its own Liquidation Ratio. The Liquidation Ratio for each vault type is expressed as
-            a percentage value of the collateral that must be present in the vault to support its debt.</td>
+          <td>The Liquidation Ratio parameter limits the maximum amount of Dai debt that a vault user can 
+            draw from their vault given the value of their collateral locked in that vault. In practice, it 
+            expresses the minimum collateral in percentage terms that can support a given Dai debt. If the ratio 
+            of a Vault user’s collateral to their debt drops below this value, their vault can be liquidated. Each 
+            vault type has its own Liquidation Ratio. The Liquidation Ratio for each vault type is expressed as a 
+            percentage value of the collateral that must be present in the vault to support its debt.<br>Changes to 
+            the Liquidation Ratio are subject to the Operational Weekly Cycle, requiring a Governance Poll followed by an Executive Vote.</td>
         </tr>
         <tr>
           <td>
@@ -7700,6 +7611,17 @@
           <td>Core</td>
           <td>The processes for offboarding Native Vault Engine collateral are defined in the subdocuments herein.
           </td>
+        <tr>
+          <td>
+            <dfn>A.3.9
+              - Measures For Endgame Transition - Native Vault Engine - Collateral Offboarding - Collateral Offboarding Process</dfn>
+          </td>
+          <td>Measures For Endgame Transition - Native Vault Engine - Collateral Offboarding - Collateral Offboarding Process</td>
+          <td>Core</td>
+          <td>The Stability Facilitators, in consultation with the Stability Scope Advisors, must use the Operational Weekly Cycle to 
+            offboard Native Vault Engine collateral pursuant to A.3.9 - Measures For Endgame Transition - Native Vault Engine - 
+            Collateral Offboarding and its subdocuments.
+          </td>
         </tr>
         <tr>
           <td>
@@ -7762,11 +7684,12 @@
           <td>Measures For Endgame Transition - Native Vault Engine - Updates</td>
           <td>Core</td>
           <td>
-            If not otherwise specified, the Stability Facilitators have the ability to trigger an Executive Vote
-            to update any of the parameters defined in <dfn>A.3.9
+             If not otherwise specified, the Stability Facilitators have the ability to modify any of the parameters defined in <dfn>A.3.9
               - Measures For Endgame Transition - Native Vault Engine - Risk Parameter Definitions</dfn> for any
             of the Vault Types in <dfn>A.3.9
-              - Measures For Endgame Transition - Native Vault Engine - Vault Types</dfn>.
+              - Measures For Endgame Transition - Native Vault Engine - Vault Types</dfn>. As a general rule, the modification of said parameters 
+            is pursuant to the Operational Weekly Cycle and can be effected directly via an Executive Vote, without requiring a Governance Poll. 
+            Exceptions to this general rule must be clearly stated in the relevant Atlas document.
           </td>
         </tr>
         <tr>
@@ -7900,6 +7823,17 @@
             Executive Votes, with risk parameters defined by the Stability Facilitators. These parameters should
             be based on input from the Stability Scope Advisors and should best serve the needs of the Sky
             Ecosystem and its collaboration with other protocols.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.3.9
+              - Measures For Endgame Transition - SparkLend Collateral Onboarding/Offboarding</dfn>
+          </td>
+          <td>Measures For Endgame Transition - SparkLend Collateral Onboarding/Offboarding </td>
+          <td>Core</td>
+          <td>The onboarding/offboarding of SparkLend collateral is temporarily controlled by Sky Core. It is 
+            implemented by the Stability Facilitators, in consultation with the Stability Scope Advisors, 
+            through the Operational Weekly Cycle.</td>
         </tr>
         <tr>
           <td>
@@ -8160,12 +8094,16 @@
           <td>Measures For Endgame Transition - SparkLend Risk Parameters - Modification</td>
           <td>Core</td>
           <td>
-            The Stability Facilitators, in consultation with the Stability Scope Advisors, may recommend changes
-            to any of the parameters specified in the subdocuments of <dfn>A.3.9
+            The Stability Facilitators, in consultation with the Stability Scope Advisors, may recommend changes to 
+            any of the parameters specified in the subdocuments of<dfn> A.3.9
               - Measures For Endgame Transition - SparkLend Risk Parameters - Definitions</dfn> or <dfn>A.3.9
               - Measures For Endgame Transition - SparkLend Risk Parameters - Cap Automator Parameter
-              Definitions</dfn>.These changes will be subject to an Executive Vote through the Weekly Governance
-            Cycle.
+              Definitions</dfn>.<br>As a general rule, the modification of said parameters is pursuant to the Operational 
+            Weekly Cycle and can be effected directly via an Executive Vote, without requiring a Governance Poll.<br>Changes 
+            to the parameters defined in the following documents are exceptions to the general rule and require a Governance 
+            Poll followed by an Executive Vote:• <dfn>A.3.9
+              - Measures For Endgame Transition - SparkLend Risk Parameters -  Liquidation Threshold Definition</dfn>• <dfn>A.3.9
+              - Measures For Endgame Transition - SparkLend Risk Parameters -  Liquidation Bonus Definition</dfn>
           </td>
         </tr>
         <tr>
@@ -8635,6 +8573,24 @@
         </tr>
         <tr>
           <td>
+            <dfn>A.4.4
+              - Activation And Sealing Mechanisms - Sealing - USDS generation Risk Parameters</dfn>
+          </td>
+          <td>Activation And Sealing Mechanisms - Sealing - USDS generation Risk Parameters</td>
+          <td>Core</td>
+          <td>The current LSE-MKR-A & Liquidation parameters are:• Cut: 0.99• Step: 60 seconds• Buf: 1.20•
+           Cusp: 0.40• Tail: 6,000 seconds• Chip: 0.1%• Tip: 300 DAI• Calc: StairstepExponentialDecrease• 
+            Ilk.chop: 8%• Tolerance: 0.5• Dust: 30,000 DAI• Ilk.hole: 3M DAI• Stability Fee: 12%•
+            spotter[ilk].mat (Liquidation Ratio): 200%• DC-IAM line: Initially, the parameter is set to 20 million. 
+            After launch of the Seal Engine the DC-IAM line parameter must be dynamically set, through executive 
+            votes at regular intervals, to be equivalent to the amount of USDS in the Surplus Buffer minus 20 million, 
+            OR if the USDS contents of the Smart Burn Engine fall below 30 million it must be set to 0.• DC-IAM gap: 5M•
+            DC-IAM ttl: 16h• Add Seal Module to LineMom GSM Exception<br>Other Seal Module Params:• farms (Whitelisted set 
+            of farms to choose from): LsMkrUsdsFarm• fee - (Exit Fee): 5%<br>StakingRewards:• rewardsDistribution: Set to the Splitter•
+            rewardsDuration: 15,649 seconds</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>A.4.5
               - Emissions - SKY Emissions - Total Emissions</dfn>
           </td>
@@ -8868,6 +8824,20 @@
           <td>Core</td>
           <td>The Accessibility Facilitators must research and develop a framework for long-term Accessibility
             Campaigns.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>A.5.5
+              - Accessibility Campaigns - Early Bird Bonus distribution</dfn>
+          </td>
+          <td>Accessibility Campaigns - Early Bird Bonus distribution</td>
+          <td>Core</td>
+          <td>Early Bird Token Rewards Distribution:• Transfer 27,222,832.8 (120% of the estimated) 
+            newly minted SKY to the following 0x14D98650d46BF7679BBD05D4f615A1547C87Bf68 
+            multisig wallet operated by Facilitator• Burn the remaining SKY in the 
+            0x14D98650d46BF7679BBD05D4f615A1547C87Bf68 multisig that is not used to fund the 
+            MerkleDistributor by calling the burn() function on the multisig, the estimated amount 
+            needed is 22,685,694</td>
         </tr>
         <tr>
           <td>
@@ -10036,15 +10006,13 @@
         </tr>
         <tr>
           <td>
-            <dfn>Contagion
-              Risk Of Misalignment - Element Annotation</dfn>
+            <dfn>Risk Of Misalignment Spreading Among ACs - Element Annotation</dfn>
           </td>
-          <td>Contagion Risk Of Misalignment - Element Annotation</td>
+          <td>Risk Of Misalignment Spreading Among ACs - Element Annotation</td>
           <td>Annotation</td>
-          <td>The element "contagion risk of misalignment" refers to the potential for misalignment by one AC to
-            influence or lead to misalignment among other ACs, creating a broader systemic risk. The element
-            emphasizes the need for quick action to contain any breach before it spreads and causes wider
-            disruptions.</td>
+          <td>The element “risk of misalignment spreading among ACs” refers to the potential for misalignment by one 
+            AC to influence or lead to misalignment among other ACs, creating a broader systemic risk. The element 
+            emphasizes the need for quick action to contain any breach before it spreads and causes wider disruptions.</td>
         </tr>
         <tr>
           <td>
@@ -10193,16 +10161,6 @@
             handling emergency and urgent situations. Confusion may potentially arise here if the reader
             misinterprets "emergency voting system" to apply only to situations classified as emergencies.
           </td>
-        </tr>
-        <tr>
-          <td>
-            <dfn>Excess
-              Funds - Element Annotation</dfn>
-          </td>
-          <td>Excess Funds - Element Annotation</td>
-          <td>Annotation</td>
-          <td>The element "excess funds" refers to the amount in the AD Buffer that exceeds the required one-month
-            budget threshold.</td>
         </tr>
         <tr>
           <td>
@@ -10370,6 +10328,22 @@
         </tr>
         <tr>
           <td>
+            <dfn>Multisig
+            - Element Annotation</dfn>
+          </td>
+          <td>Multisig - Element Annotation</td>
+          <td>Annotation</td>
+          <td>The element “multisig” refers to a blockchain wallet implemented as a smart contract and requiring multiple signers 
+            to approve transactions.<br> A blockchain wallet has an address associated with it and can hold cryptocurrency assets 
+            as well as interact with smart contracts. The address of a blockchain wallet may be granted privileged access to 
+            interact with other smart contracts, allowing the owner of the wallet to perform functions not available to other 
+            users.<br> A multisig allows the control of a wallet to be shared among the signers based on specified parameters, 
+            including the number of signers and how many signers are needed to approve each transaction. This allows a wallet to 
+            be more safely managed: for instance, a multisig prevents the possibility that a single signer could take malicious 
+            action and allows the signers to be updated if necessary.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Nested
               Document Trees - Element Annotation</dfn>
           </td>
@@ -10524,17 +10498,6 @@
         </tr>
         <tr>
           <td>
-            <dfn>Potential
-              Misalignment - Element Annotation</dfn>
-          </td>
-          <td>Potential Misalignment - Element Annotation</td>
-          <td>Annotation</td>
-          <td>The element "potential misalignment" refers to any situation where there is a reasonable suspicion
-            or indication that an Alignment Conserver (AC) has breached their obligations or requirements, as
-            specified in the Atlas.</td>
-        </tr>
-        <tr>
-          <td>
             <dfn>Precedent
               - Element Annotation</dfn>
           </td>
@@ -10633,6 +10596,17 @@
         </tr>
         <tr>
           <td>
+            <dfn>Same 
+              Codebase - Element Annotation</dfn>
+          </td>
+          <td>Same Codebase - Element Annotation</td>
+          <td>Annotation</td>
+          <td>The element “same codebase” refers to the fact that SparkLend is based on the Aave codebase. 
+            Vulnerabilities or exploits discovered within Aave, or any other protocol utilizing the Aave 
+            codebase, could potentially be replicated and affect SparkLend.</td>
+        </tr>
+        <tr>
+          <td>
             <dfn>Secretly
               Organizing - Element Annotation</dfn>
           </td>
@@ -10723,12 +10697,12 @@
         </tr>
         <tr>
           <td>
-            <dfn>Total
-              Votes Delegated - Element Annotation</dfn>
+            <dfn>Total Voting Power Delegated - Element Annotation</dfn>
           </td>
-          <td>Total Votes Delegated - Element Annotation</td>
+          <td>Total Voting Power Delegated - Element Annotation</td>
           <td>Annotation</td>
-          <td>The element “total votes delegated” refers to the cumulative voting power that has been delegated to a Delegate Contract by SKY holders and Sealing users.</td>
+          <td>The element “total Voting Power delegated” refers to the cumulative SKY/MKR that has been delegated 
+            to a Delegate Contract by SKY/MKR holders and Sealing users.</td>
         </tr>
         <tr>
           <td>
@@ -11087,6 +11061,22 @@
             stage to avoid over-formalizing actions and decisions taken by Facilitators pursuant to <dfn>A.0.1
               - Atlas Preamble - General Provisions - Facilitators' Broad Discretionary Capacity</dfn>.
           </td>
+          <tr>
+          <td>
+            <dfn>Governance 
+              Facilitators Must Exercise Due Caution In Reviewing Use Of Multisig</dfn>
+          </td>
+          <td>Governance Facilitators Must Exercise Due Caution In Reviewing Use Of Multisig</td>
+          <td>Action Tenet</td>
+          <td>
+           The list of instances justifying use of the Multisig in the Target Document is not intended to be 
+            exhaustive. However, the Governance Facilitators must exercise due caution in reviewing and validating 
+            use of the Multisig in edge cases, i.e., use of the Multisig that falls outside of the examples provided 
+            in the Target Document. In such “edge cases,” the Governance Facilitators must ensure that a postmortem 
+            is publicly published on the Sky Forum which justifies the use of the Multisig. The Governance Facilitators 
+            should also consider proposing an edit to the Target Document so that the edge case is explicitly included 
+            in the examples provided in the Target Document.
+          </td>
         </tr>
         <tr>
           <td>
@@ -11369,6 +11359,34 @@
               Sheet - Element Annotation</dfn>.
           </td>
         </tr>
+            <tr>
+          <td>
+            <dfn>Prime Delegates Must Stake Their AD Buffer To Trigger Weekly Cycle Proposals</dfn>
+          </td>
+          <td>Prime Delegates Must Stake Their AD Buffer To Trigger Weekly Cycle Proposals</td>
+          <td>Action Tenet</td>
+          <td>
+            To deter spurious or misaligned proposals, Prime Delegates must “stake” their AD Buffer to trigger a 
+            Proposal. A Prime Delegate can trigger a Weekly Cycle Proposal only if their AD Buffer contains at least 
+            one (1) month’s worth of budget at the time of triggering the Proposal. This “staking” requirement of one 
+            month’s worth of budget remains in effect until the triggered Proposal is fully resolved - that is, until 
+            either (1) the Proposal is rejected by the Governance Facilitators for misalignment, or (2) a Sky Governance 
+            vote on the Proposal concludes in an approval or rejection. If the Proposal is voted down or rejected for 
+            misalignment, the PD will lose their entire AD Buffer</dfn>.
+          </td>
+       </tr>
+            <tr>
+          <td>
+            <dfn>Prime Delegate Loss Of Rank After Triggering Proposal Is Inconsequential </dfn>
+          </td>
+          <td>Prime Delegate Loss Of Rank After Triggering Proposal Is Inconsequential </td>
+          <td>Action Tenet</td>
+          <td>
+            A Weekly Cycle Proposal is considered correctly triggered when the triggering Aligned Delegate is a Prime Delegate 
+            with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal. It is 
+            inconsequential if, after triggering the Proposal, the Prime Delegate loses Prime Delegate rank.</dfn>.
+          </td>
+        </tr>
         <tr>
           <td>
             <dfn>Unanimity
@@ -11555,6 +11573,40 @@
           <td>'Volunteer Discord moderator' is not a role that is formally defined in the Atlas. Therefore,
             Entity's first position as volunteer Discord moderator does not count as an ecosystem role. The
             Target Document is not triggered at all in this Scenario.</td>
+        </tr>
+        <tr>
+          <td>
+            <dfn>Delay In Payment To Prime Delegate Triggering Proposal</dfn>
+          </td>
+          <td>Delay In Payment To Prime Delegate Triggering Proposal</td>
+          <td>Scenario</td>
+          <td>Entity is a Prime Delegate with one (1) month’s worth of budget in their AD Buffer. Entity triggers 
+            a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Prime Delegate rank. Three days later, 
+            before the Proposal has been voted on, the Governance Facilitators distribute compensation to other 
+            Aligned Delegates but do not distribute compensation to Entity.</td>
+          <td>Aligned</td>
+          <td>Paying out the AD Buffer would have led to Entity’s AD Buffer dropping below the required threshold of 
+            one (1) month’s worth of budget while the Proposal was still unresolved. In this Scenario, the triggering 
+            AD cannot receive payout from the AD Buffer until the triggered Proposal is voted on and approved by Sky 
+            Governance. Assuming that the Proposal is approved, the Governance Facilitators are authorized to disburse 
+            the entire contents of the AD Buffer to the triggering AD in the next AD compensation cycle. However, if 
+            the Proposal is rejected by the Governance Facilitators for misalignment or voted down by Sky Governance, 
+            the triggering AD would lose their entire AD Buffer.</td>
+        </tr>
+             <tr>
+          <td>
+            <dfn>Prime Delegate Triggers Proposal And Loses Prime Delegate Rank Immediately Thereafter</dfn>
+          </td>
+          <td>Prime Delegate Triggers Proposal And Loses Prime Delegate Rank Immediately Thereafter</td>
+          <td>Scenario</td>
+          <td>Entity is a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer. Entity triggers 
+            a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Prime Delegate rank. The Governance Facilitators 
+            continue to prepare a Governance Poll for the Proposal.</td>
+          <td>Aligned as to Entity. Aligned as to the Governance Facilitators.</td>
+          <td>The fact that Entity lost their Prime Delegate rank after triggering the Proposal is inconsequential. Entity satisfied 
+            the requirement of being a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time 
+            of triggering the Proposal, and thus the Proposal was properly triggered. The Governance Facilitators acted correctly 
+            to prepare a Governance Poll for the Proposal in accord with the process definition for the Atlas Edit Weekly Cycle.</td>
         </tr>
       </tbody>
     </table>
